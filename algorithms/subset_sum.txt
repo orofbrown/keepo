@@ -1,0 +1,14 @@
+Given a sequence of numbers `x[i-N]`, sorted in increasing order
+Define the function
+    `Q(i, s): boolean`
+        which returns `true` or `false` based on whether there is
+        a non-empty subset of numbers in `x` which sums to `s` 
+Determine if there is a non-empty subset which sums to zero
+    Q(N, 0)
+Let `A` be the sum of all negative values of `x`
+Let `B` be the sum of all postiive values of `x`
+Then `Q(i, s) = false` if `s < A or B > s`
+    `A <= s <= B`
+Create a 2D array `m` to hold all values for
+    `1 <= i <= N` and
+    `A <= s <= B`

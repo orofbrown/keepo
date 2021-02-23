@@ -1,0 +1,19 @@
+Djikstra's Shortest Path Algorithm
+
+Given a set of `n` edges
+Determine `n` nodes
+Mark each node unvisited
+Assign each node very large/inifinite distance value
+Set init_node as current node
+For each node between init and final:
+    For each unvisited neighbor:
+        Calculate distance from current node
+        If distance exists:
+            Compare the two and keep the smaller
+        Else:
+            Save current value
+    Mark visited (visited nodes should not be checked again)
+    If current node is also final node:
+        exit
+    Else:
+        set next closest node to current
