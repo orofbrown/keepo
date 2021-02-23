@@ -7,12 +7,12 @@
  */
 
 /* start Tree def */
-function Tree(n) {
+function Tree(n, initArray) {
   if (!n) {
     throw new Error("Please specify node capacity for the tree");
   }
 
-  this._tree = [];
+  this._tree = initArray || [];
   this.size = 0;
   this._nodeCapacity = n;
 }
@@ -164,6 +164,7 @@ Tree.prototype._shift = function (currIdx) {
 const l = console.log;
 const exists = (x) => x !== null && x !== undefined;
 const idx = (cur, step) => cur * 2 + step;
+const TEST_DATA = [81, 85, 68, 97, 83, 57, 28, 86, 82, 75, 60, 44];
 
 function* range() {
   const startIsNull = () => arguments.length === 1;
@@ -178,7 +179,6 @@ function* range() {
 
 function main() {
   const t = new Tree(2);
-  const testData = [81, 85, 68, 97, 83, 57, 28, 86, 82, 75, 60, 44];
   /*
    * 2-tree (binary) without rebalancing (order of insertion):
    *                    81
@@ -191,7 +191,7 @@ function main() {
    *    86    82 75   60  44
    */
 
-  for (let i of testData) {
+  for (let i of TEST_DATA) {
     t.add(i);
   }
 
@@ -212,8 +212,8 @@ function main() {
   l(t.traverse("bfs"));
 }
 
-if (require.main) {
-  // main();
+if (require.main == module) {
+  main();
 }
 
-module.exports = { exists, childIdx: idx, l, Tree };
+module.exports = { exists, childIdx: idx, l, TEST_DATA, Tree };
