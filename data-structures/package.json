@@ -1,0 +1,24 @@
+{
+  "name": "standard-data-stuctures",
+  "version": "1.0.0",
+  "description": "A collection of commonly used data structures based on Java and C++",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "keywords": [
+    "data-structures",
+    "structures",
+    "adt",
+    "ads",
+    "stack",
+    "queue",
+    "heap"
+  ],
+  "author": "Mike Young",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine": "^3.6.4"
+  }
+}

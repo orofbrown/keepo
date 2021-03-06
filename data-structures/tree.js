@@ -1,9 +1,6 @@
 /*
  *  Author: Mike Young
- *  Tree implemented in JavaScript using Arrays
- *  Pre-order aka NLR
- *  In-order aka LNR
- *  Post-order aka LRN
+ *  Tree data type implemented in JavaScript using Arrays
  */
 
 /* start Tree def */
