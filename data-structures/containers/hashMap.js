@@ -1,89 +1,113 @@
-function HashMap() {
-  this._array = [];
-  this._capacity = 2 ** 8;
-  this._keys = [];
-  this._size = 0;
-  this._values = [];
+const HashTable = require('./HashTable');
+
+function HashMap(seed) {
+  HashTable.call(this, seed);
 }
+HashMap.prototype = Object.create(HashTable.prototype);
+Object.defineProperty(HashMap.prototype, 'constructor', { value: HashMap });
 
-HashMap.prototype._grabFromBucket = function _grabFromBucket(idx, key) {
+HashMap.prototype._findIndexInBucket = function (bucket, key) {
+  const len = bucket.length;
+  for (let i = 0; i < len; ++i) {
+    if (bucket[i][0] === key) {
+      return i;
+    }
+  }
+  return -1;
+};
+
+HashMap.prototype._grabFromBucket = function (idx, key, shouldRemove = false) {
   const bucket = this._array[idx];
-  if (bucket.length === 1) {
-    return bucket[0][1];
+  for (var pos = 0; pos < bucket.length; ++pos) {
+    if (bucket[pos][0] === key) {
+      break;
+    }
   }
-  return bucket.find(([k, v]) => k === key)[1];
+  const pair = bucket[pos];
+  if (shouldRemove) {
+    if (bucket.length <= 1) {
+      this._array[idx] = [];
+    } else {
+      // TODO: don't use splice
+      bucket.splice(pos, 1);
+    }
+    --this._size;
+  }
+  return pair[1];
 };
 
-HashMap.prototype._hash = function _hash(key) {
-  let val = 0;
-  if (typeof key == "string") {
-    val =
-      key.length === 1
-        ? key.charCodeAt(0)
-        : key.charCodeAt(0) + key.charCodeAt(1);
-  } else if (typeof key == "number") {
-    val = (Number.isInteger(key) ? key : Math.floor(key)) + 2;
-  } else if (val === true) {
-    val = 1;
-  }
-
-  return val % this._capacity;
+HashTable.prototype._init = function (seed) {
+  seed.forEach(([key, val]) => {
+    // TODO: maybe later
+    if (typeof key == 'object') {
+      throw new Error('Objects cannot be hash keys');
+    }
+    this._placeInBucket(this._hash(key), key, val);
+  });
 };
-
-HashMap.prototype._placeInBucket = function _placeInBucket(idx, key, val) {
+HashMap.prototype._placeInBucket = function (idx, key, val) {
   const bucket = this._array[idx];
   if (bucket === undefined) {
     this._array[idx] = [[key, val]];
-  } else {
+    ++this._size;
+  } else if (!this.has(key)) {
     bucket.push([key, val]);
+    ++this._size;
+  } else {
+    // bucket exists and already has this key, so update the value
+    const keyIndex = this._findIndexInBucket(bucket, key);
+    bucket[keyIndex] = [key, val];
   }
+
+  return true;
 };
 
-HashMap.prototype.entries = function entries() {
-  const gen = function* () {
-    for (let i = 0; i < this._keys.length; ++i) {
-      yield [this._keys[i], this._values[i]];
+HashMap.prototype[Symbol.iterator] = function () {
+  const items = this._array.filter((i) => i !== undefined);
+  const flattened = [];
+  for (let i = 0; i < items.length; ++i) {
+    const bucket = [...items[i]];
+    for (let j = 0; j < bucket.length; ++j) {
+      flattened.push(bucket[j]);
     }
+  }
+
+  const gen = function* () {
+    yield* flattened;
   };
   return gen();
 };
 
-HashMap.prototype.get = function get(key) {
+HashMap.prototype.remove = function (key) {
+  const idx = this._hash(key);
+  this._grabFromBucket(idx, key, true);
+};
+
+HashMap.prototype.get = function (key) {
   if (this.has(key)) {
     const idx = this._hash(key);
     return this._grabFromBucket(idx, key);
   }
 };
 
-HashMap.prototype.has = function has(key) {
+HashMap.prototype.has = function (key) {
   const idx = this._hash(key);
-  return this._array[idx] !== undefined;
+  const bucket = this._array[idx];
+  if (!bucket) {
+    return false;
+  }
+
+  for (let i = 0; i < bucket.length; ++i) {
+    if (bucket[i][0] === key) {
+      return true;
+    }
+  }
+  return false;
 };
 
-HashMap.prototype.set = function set(key, val) {
+HashMap.prototype.set = function (key, val) {
   const idx = this._hash(key);
-  console.log("here", idx);
   this._placeInBucket(idx, key, val);
 };
 
-HashMap.prototype.size = function size() {
-  return this._size;
-};
-
-if (require.main == module) {
-  var m = new HashMap();
-  m.set("a", 5);
-  m.set("foo", "bar");
-  m.set(13, "blah");
-  m.set("13", "flurb");
-  m.set(true, 2);
-
-  console.log("a: ", m.get("a"));
-  console.log("foo: ", m.get("foo"));
-  console.log("baz: ", m.get("baz"));
-  console.log("true: ", m.get(true));
-  console.log("has a? ", m.has("a"));
-  console.log("has foo?", m.has("foo"));
-  console.log("has true: ", m.has(true));
-  console.log("has baz?", m.has("baz"));
-}
+module.exports = HashMap;

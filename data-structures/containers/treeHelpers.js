@@ -1,4 +1,4 @@
-const { exists, range } = require("../functions");
+const { exists, range } = require('../functions');
 
 const TreeHelpers = (function () {
   const getChildIndex = (cur, step) => cur * 2 + step;
@@ -31,8 +31,8 @@ const TreeHelpers = (function () {
     const leftChild = getChildIndex(start, 1);
     const rightChild = getChildIndex(start, 2);
 
-    let firstChild = order == "LR" ? leftChild : rightChild;
-    let secondChild = order == "LR" ? rightChild : leftChild;
+    let firstChild = order == 'LR' ? leftChild : rightChild;
+    let secondChild = order == 'LR' ? rightChild : leftChild;
     if (exists(arr[firstChild])) {
       const result = TreeHelpers.depthFirstSearch(arr, firstChild, item, order);
 
@@ -68,9 +68,9 @@ const TreeHelpers = (function () {
     }
 
     switch (order) {
-      case "pre":
+      case 'pre':
         return [node, ...leftResult, ...rightResult];
-      case "post":
+      case 'post':
         return [...leftResult, ...rightResult, node];
       default:
         return [...leftResult, node, ...rightResult];

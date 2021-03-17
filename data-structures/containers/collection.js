@@ -1,11 +1,11 @@
 // Per Java spec:
 // Implements Collection and Iterable interfaces
-const { NotImplementedError } = require("../errors");
-const { isPrimitive } = require("../functions");
+const { NotImplementedError } = require('../errors');
+const { isPrimitive } = require('../functions');
 
 function AbstractCollection() {
   if (Object.is(AbstractCollection.prototype, this.__proto__)) {
-    throw new Error("AbstractCollection cannot be instantiated directly");
+    throw new Error('AbstractCollection cannot be instantiated directly');
   }
 
   this._array = [];
@@ -33,7 +33,7 @@ AbstractCollection.prototype.contains = function (o) {
 AbstractCollection.prototype.containsAll = function (c) {
   // param c: collection of plain objects
   // returns bool
-  throw new NotImplementedError("AbstractCollection.containsAll");
+  throw new NotImplementedError('AbstractCollection.containsAll');
 };
 AbstractCollection.prototype.isEmpty = function () {
   // returns bool
@@ -41,7 +41,7 @@ AbstractCollection.prototype.isEmpty = function () {
 };
 AbstractCollection.prototype[Symbol.iterator] = function () {
   // returns Iterator
-  throw new NotImplementedError("AbstractCollection.iterator");
+  throw new NotImplementedError('AbstractCollection.iterator');
 };
 AbstractCollection.prototype.remove = function (o) {
   // param o: single plain object

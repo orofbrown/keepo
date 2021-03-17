@@ -1,19 +1,19 @@
 // Per Java spec:
 // AbstractCollection -> AbstractList
-const AbstractCollection = require("./collection");
-const { NotImplementedError } = require("../errors");
-const { exists } = require("../functions");
+const AbstractCollection = require('./collection');
+const { NotImplementedError } = require('../errors');
+const { exists } = require('../functions');
 
 function AbstractList() {
   if (Object.is(AbstractList.prototype, this.__proto__)) {
-    throw new Error("AbstractList cannot be instantiated directly");
+    throw new Error('AbstractList cannot be instantiated directly');
   }
   AbstractCollection.call(this);
 
   this.modCount = 0;
 }
 AbstractList.prototype = Object.create(AbstractCollection.prototype);
-Object.defineProperty(AbstractList.prototype, "constructor", {
+Object.defineProperty(AbstractList.prototype, 'constructor', {
   value: AbstractList,
 });
 
@@ -30,7 +30,7 @@ AbstractList.prototype.get = function (idx) {
   // param idx: int
   // returns E
   if (idx >= this._array.length) {
-    throw new Error("Array index out of bounds");
+    throw new Error('Array index out of bounds');
   }
 
   return this._array[idx];
@@ -50,7 +50,7 @@ AbstractCollection.prototype.lastIndexOf = function (o, idx) {
 AbstractList.prototype.listIterator = function (idx) {
   // param idx: (optional) int - starting position in list for the returned iterator
   // returns ListIterator
-  throw new NotImplementedError("AbstractList.listIterator");
+  throw new NotImplementedError('AbstractList.listIterator');
 };
 AbstractList.prototype.remove = function (idx) {
   // param e: Element
@@ -58,7 +58,7 @@ AbstractList.prototype.remove = function (idx) {
   // removes element e at index idx and shifts list to the left
   // returns element removed
   if (idx >= this._array.length) {
-    throw new Error("Index out of bounds");
+    throw new Error('Index out of bounds');
   }
 
   return this._array.splice(idx, 1)[0];
@@ -67,7 +67,7 @@ AbstractList.prototype.removeRange = function (fromIdx, toIdx) {
   // param fromIdx: int
   // param toIdx: int
   // returns void
-  throw new NotImplementedError("AbstractList.removeRange");
+  throw new NotImplementedError('AbstractList.removeRange');
 };
 AbstractList.prototype.set = function (idx, e) {
   // param idx: int
@@ -79,7 +79,7 @@ AbstractList.prototype.subList = function (fromIdx, toIdx) {
   // param fromIdx: int
   // param toIdx: int
   // returns List
-  throw new NotImplementedError("AbstractList.subList");
+  throw new NotImplementedError('AbstractList.subList');
 };
 
 // List interface
