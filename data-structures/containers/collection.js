@@ -46,7 +46,7 @@ AbstractCollection.prototype[Symbol.iterator] = function () {
 AbstractCollection.prototype.remove = function (o) {
   // param o: single plain object
   // returns bool
-  const len = this.size();
+  const len = this.size;
   for (var i = 0; i < len; ++i) {
     if (areEqual(this._array[i], o)) {
       this._array.splice(i, 1);
@@ -77,11 +77,11 @@ AbstractCollection.prototype.toString = function () {
 AbstractCollection.prototype.equals = function (o) {
   // param o: Object to check equality
   // returns bool
-  if (this.size() !== o.size()) {
+  if (this.size !== o.size) {
     return false;
   }
 
-  const len = this.size();
+  const len = this.size;
   for (let i = 0; i < len; ++i) {
     if (areEqual(this._array[i], o[i])) {
       return false;
@@ -90,9 +90,12 @@ AbstractCollection.prototype.equals = function (o) {
 
   return true;
 };
-AbstractCollection.prototype.size = function () {
-  // returns int
-};
+
+Object.defineProperty(AbstractCollection.prototype, 'size', {
+  get: function () {
+    return this._array.length;
+  },
+});
 
 // Iterable interface
 AbstractCollection.prototype.forEach = function (action) {

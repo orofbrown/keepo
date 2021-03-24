@@ -1,9 +1,9 @@
 // Per Java spec:
 // AbstractCollection -> AbstractList -> Vector
 
-const AbstractCollection = require("./collection");
-const AbstractList = require("./list");
-const { exists } = require("../functions");
+const AbstractCollection = require('./collection');
+const AbstractList = require('./list');
+const { exists } = require('../functions');
 
 function Vector(arg1, arg2) {
   // arg1: int | Collection
@@ -13,26 +13,43 @@ function Vector(arg1, arg2) {
   // TODO: allow constructing from existing list/collection
   AbstractList.call(this);
 
-  const initialCapacity = exists(arg1) ? arg1 : 10;
-  const capacityInc = exists(arg2) ? arg2 : 0;
-
-  this.capacityIncrement = capacityInc;
+  this.capacityIncrement = 0;
   this.elementCount = 0; // number of valid elements in the vector
-  this.elementData = new Array(initialCapacity); // the entire array of elements, including empty slots
+  this.elementData = new Array(10); // the entire array of elements, including empty slots
 
-  this._resize = function () {
-    const capacity = this.elementData.length;
-    this.elementData = [...this._array];
-    this.elementCount = this.elementData.length;
-    if (capacity > this.elementData.length) {
-      this.elementData.length = capacity;
+  const ctor1 = () => {
+    this.elementData = new Array(arg1);
+    this.capacityIncrement = arg2 || 0;
+  };
+  const ctor2 = () => {
+    const vec = arg1;
+    for (let i = 0; i < vec.elementCount; ++i) {
+      this.add(vec.get(i));
     }
   };
+
+  if (exists(arg1)) {
+    if (typeof arg1 == 'number') {
+      ctor1();
+    } else if (arg1.elementData && arg1.elementCount > 0) {
+      ctor2();
+    }
+  }
 }
 Vector.prototype = Object.create(AbstractList.prototype);
-Object.defineProperty(Vector.prototype, "constructor", { value: Vector });
+Object.defineProperty(Vector.prototype, 'constructor', { value: Vector });
+
+Vector.prototype._resize = function () {
+  const capacity = this.elementData.length;
+  this.elementData = [...this._array];
+  this.elementCount = this.elementData.length;
+  if (capacity > this.elementData.length) {
+    this.elementData.length = capacity;
+  }
+};
 
 Vector.prototype.add = function (e) {
+  // pushes to _array
   AbstractList.prototype.add.call(this, e);
 
   if (this.elementData.length < this._array.length) {
@@ -41,10 +58,13 @@ Vector.prototype.add = function (e) {
   }
   this.elementData[this.elementCount++] = e;
 };
-Vector.prototype.capacity = function (e) {
-  // Available capacity in the vector
-  return this.elementData.length;
-};
+
+Object.defineProperty(Vector.prototype, 'capacity', {
+  get: function () {
+    return this.elementData.length;
+  },
+});
+
 Vector.prototype.elements = function () {
   // returns a generator that can iterate through each element of the vector
   const arr = this._array;
@@ -52,19 +72,23 @@ Vector.prototype.elements = function () {
     yield* arr;
   })();
 };
+
 Vector.prototype.ensureCapacity = function (minCapacity) {
   // param minCapacity: int
   // increase the capacity to be at least as large as minCapacity
   this.elementData.length = Math.max(minCapacity, this.elementData.length);
 };
+
 Vector.prototype.first = function () {
   // returns head element of vector
   return this._array[0];
 };
+
 Vector.prototype.last = function () {
   // returns tail element of vector
   return this._array[this._array.length - 1];
 };
+
 Vector.prototype.remove = function (o) {
   const successful = AbstractCollection.prototype.remove.call(this, o);
   if (successful) {
@@ -72,11 +96,13 @@ Vector.prototype.remove = function (o) {
   }
   return successful;
 };
+
 Vector.prototype.removeAt = function (idx) {
   const element = AbstractList.prototype.remove.call(this, idx);
   this._resize();
   return element;
 };
+
 Vector.prototype.setSize = function (newSize) {
   // returns void
   this.elementData.length = newSize;
@@ -85,27 +111,16 @@ Vector.prototype.setSize = function (newSize) {
   }
   this.elementCount = this._array.length;
 };
+
 Vector.prototype.size = function () {
   // returns int
   return this.elementCount;
 };
+
 Vector.prototype.trimToSize = function () {
   // decrease capacity value to match `size`
   // returns void
-  this.elementData.length = this.size();
+  this.elementData.length = this.size;
 };
-
-if (require.main == module) {
-  const v = new Vector();
-  for (let i = 0; i < 10; ++i) {
-    v.add(i);
-  }
-  console.log(v);
-  v.add(10);
-
-  console.log(v);
-  v.trimToSize();
-  console.log(v);
-}
 
 module.exports = Vector;

@@ -5,23 +5,21 @@
  *    is either less than (max heap) or greater than/equal to (min heap) its parent
  */
 
-const { childIdx, l, TEST_DATA, Tree } = require("./unorderedTree");
+const Tree = require('./unorderedTree');
 
-/* Heap def */
-// #region constructor
-function Heap(type, initCapacity, comparator, initArray) {
+function Heap(n = 2, type = 'min', initCapacity, comparator, initArray) {
   // type: string - 'min' | 'max'
-  Tree.call(this, 2);
-  this.comparator = comparator;
-  this.size = 0;
-  this.type = type || "max";
+  Tree.call(this, n, initArray);
 
-  if (!this.comparator || typeof comparator != "function") {
-    this.comparator = this.type == "max" ? (a, b) => a > b : (a, b) => a <= b;
+  this.comparator = comparator;
+  this.type = type || 'max';
+
+  if (!this.comparator || typeof comparator != 'function') {
+    this.comparator = this.type == 'max' ? (a, b) => a > b : (a, b) => a <= b;
   }
 
   if (initCapacity) {
-    this._tree = new Array(initCapacity);
+    this._array = new Array(initCapacity);
   } else if (initArray) {
     for (let i of initArray) {
       this.add(i);
@@ -29,92 +27,77 @@ function Heap(type, initCapacity, comparator, initArray) {
   }
 }
 Heap.prototype = Object.create(Tree.prototype);
-Object.defineProperty(Heap.prototype, "constructor", {
+Object.defineProperty(Heap.prototype, 'constructor', {
   value: Heap,
 });
-// #endregion constructor
-
-// #region "public" methods
-Heap.prototype.add = function (item) {
-  Tree.prototype.add.call(this, item);
-  this._siftUp();
-  return true;
-};
-
-Heap.prototype.clear = function () {
-  this._tree = [];
-  this.size = 0;
-};
-
-Heap.prototype[Symbol.iterator] = function* () {
-  yield* this._tree;
-};
-
-Heap.prototype.peekRoot = function () {
-  return this._tree[0];
-};
-
-Heap.prototype.popRoot = function () {
-  const last = this._tree.length - 1;
-  const root = this._tree[0];
-  this._tree[0] = this._tree[last];
-  this._tree.length -= 1;
-
-  --this.size;
-  this._siftDown();
-  return root;
-};
-
-Heap.prototype.toArray = function () {
-  return this._tree;
-};
-// #endregion "public" methods
-
-// #region "private" methods
-Heap.prototype._siftUp = function () {
-  for (
-    let cur = this.size - 1,
-      parentIdx = getParentIndex(cur),
-      parent = this._tree[parentIdx];
-    cur > 0 && this.comparator(this._tree[cur], parent);
-    cur = parentIdx,
-      parentIdx = getParentIndex(cur),
-      parent = this._tree[parentIdx]
-  ) {
-    this._swap(cur, parentIdx);
-  }
-};
 
 Heap.prototype._siftDown = async function () {
-  for (let cur = 0; cur < this.size - 1; ) {
+  for (let cur = 0; cur < this._size - 1; ) {
     const left = childIdx(cur, 1);
     const right = childIdx(cur, 2);
-    const next = this.comparator(this._tree[left], this._tree[right])
+    const next = this.comparator(this._array[left], this._array[right])
       ? left
       : right;
 
-    if (next < this.size) {
+    if (next < this._size) {
       this._swap(cur, next);
     }
     cur = next;
   }
 };
 
-Heap.prototype._swap = function (cur, swapIdx) {
-  // TODO: deep copy?
-  const swap = this._tree[cur];
-  this._tree[cur] = this._tree[swapIdx];
-  this._tree[swapIdx] = swap;
+Heap.prototype._siftUp = function () {
+  for (
+    let cur = this._size - 1,
+      parentIdx = getParentIndex(cur),
+      parent = this._array[parentIdx];
+    cur > 0 && this.comparator(this._array[cur], parent);
+    cur = parentIdx,
+      parentIdx = getParentIndex(cur),
+      parent = this._array[parentIdx]
+  ) {
+    this._swap(cur, parentIdx);
+  }
 };
-// #endregion "private" methods
-/* end Heap def */
+
+Heap.prototype._swap = function (cur, swapIdx) {
+  const swap = this._array[cur];
+  this._array[cur] = this._array[swapIdx];
+  this._array[swapIdx] = swap;
+};
+
+Heap.prototype.add = function (item) {
+  Tree.prototype.add.call(this, item);
+  this._siftUp();
+  return this.size;
+};
+
+Heap.prototype.clear = function () {
+  this._array = [];
+  this._size = 0;
+};
+
+Heap.prototype.peekRoot = function () {
+  return this._array[0];
+};
+
+Heap.prototype.popRoot = function () {
+  const last = this._array.length - 1;
+  const root = this._array[0];
+  this._array[0] = this._array[last];
+  this._array.length -= 1;
+
+  --this._size;
+  this._siftDown();
+  return root;
+};
 
 function getParentIndex(idx) {
   return Math.floor((idx - 1) / 2);
 }
 
 function main() {
-  const h = new Heap("max");
+  const h = new Heap('max');
   /*
    * Max-heap with rebalancing:
    *                      97

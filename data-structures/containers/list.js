@@ -30,7 +30,7 @@ AbstractList.prototype.get = function (idx) {
   // param idx: int
   // returns E
   if (idx >= this._array.length) {
-    throw new Error('Array index out of bounds');
+    throw new Error(`Array index out of bounds: ${idx}`);
   }
 
   return this._array[idx];

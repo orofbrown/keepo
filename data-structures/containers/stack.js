@@ -1,14 +1,13 @@
 // Per Java spec:
 // AbstractCollection -> AbstractList -> Vector -> Stack
-
-const Vector = require("./vector");
-const { StructureError } = require("../errors");
+const Queue = require('./queue');
+const Vector = require('./vector');
 
 function Stack() {
   Vector.call(this, 0, 1);
 }
 Stack.prototype = Object.create(Vector.prototype);
-Object.defineProperty(Stack.prototype, "constructor", { value: Stack });
+Object.defineProperty(Stack.prototype, 'constructor', { value: Stack });
 
 Stack.prototype.peek = function () {
   // returns top element without removing
@@ -40,8 +39,15 @@ Stack.prototype.search = function (o) {
   return -1;
 };
 
+Stack.prototype.add = () => {};
+Stack.prototype.get = () => {};
+
 if (require.main == module) {
   const s = new Stack();
+  s.add(1);
+  s.add(2);
+  s.push(3);
+  s.push(4);
   console.log(s);
 }
 

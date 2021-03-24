@@ -3,9 +3,9 @@ const { exists, range } = require('../functions');
 const TreeHelpers = (function () {
   const getChildIndex = (cur, step) => cur * 2 + step;
 
-  function getChildren(parentIndex) {
+  function getChildren(arr, parentIndex, nodeCapacity) {
     return [...range(1, nodeCapacity + 1)]
-      .map((i) => this._array[_getChildIndex(parentIndex, i)])
+      .map((i) => arr[getChildIndex(parentIndex, i)])
       .filter((i) => exists(i));
   }
 
@@ -19,8 +19,8 @@ const TreeHelpers = (function () {
     return -1;
   }
 
-  function isLeaf(currentIndex) {
-    return getChildren(currentIndex).length === 0;
+  function isLeaf(arr, currentIndex, nodeCapacity) {
+    return getChildren(arr, currentIndex, nodeCapacity).length === 0;
   }
 
   function depthFirstSearch(arr, start, item, order) {

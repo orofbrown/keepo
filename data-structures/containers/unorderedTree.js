@@ -3,16 +3,22 @@
  *  UnorderedTree data type implemented in JavaScript using Arrays
  */
 
-const AbstractTree = require("./tree");
-const { exists, range } = require("../functions");
+const AbstractTree = require('./tree');
+const HelperModule = require('./treeHelpers');
+const { exists, range } = require('../functions');
 
 function UnorderedTree(n, initArray) {
   AbstractTree.call(this, n, initArray);
 }
 UnorderedTree.prototype = Object.create(AbstractTree.prototype);
-Object.defineProperty(UnorderedTree.prototype, "constructor", {
+Object.defineProperty(UnorderedTree.prototype, 'constructor', {
   value: UnorderedTree,
 });
+
+UnorderedTree.prototype[Symbol.iterator] = function* () {
+  // returns a BFS representation of the underlying tree
+  yield* this._array;
+};
 
 UnorderedTree.prototype.add = function (item) {
   if (this._array.length !== this._size) {
@@ -25,7 +31,7 @@ UnorderedTree.prototype.add = function (item) {
     this._array[this._size++] = item;
   }
 
-  return this._size;
+  return this.size;
 };
 
 UnorderedTree.prototype.remove = function (item) {
@@ -33,10 +39,10 @@ UnorderedTree.prototype.remove = function (item) {
   let result;
   if (searchIdx > -1) {
     result = this._array[searchIdx];
-    if (_isLeaf(searchIdx)) {
-      this._array[searchIdx] = undefined;
+    if (!HelperModule.isLeaf(this._array, searchIdx, this._nodeCapacity)) {
+      _shift(this._array, searchIdx);
     } else {
-      _shift(searchIdx);
+      this._array[searchIdx] = undefined;
     }
     --this._size;
   }
@@ -52,18 +58,20 @@ UnorderedTree.prototype.traverse = function (algo) {
   return AbstractTree.prototype.traverse.call(this, algo);
 };
 
-function _shift(currIdx) {
-  // Does a simple shift of all right-nodes up to parent,
-  //  starting at the deleted node
-  const oldVal = this._array[currIdx];
-  const right = childIndex(currIdx, 2);
-  let newVal;
+function _shift(tree, currIdx) {
+  // Shift of all right-nodes up to parent, starting at the deleted node
+  // If right doesn't exist, shift left up to fill slot instead
+  const left = HelperModule.getChildIndex(currIdx, 1);
+  const right = HelperModule.getChildIndex(currIdx, 2);
 
-  if (this._array[right]) {
-    newVal = _shift(right);
+  if (!exists(tree[currIdx])) {
+    return;
   }
+  const childNode = exists(tree[right]) ? right : left;
 
-  this._array[currIdx] = newVal;
+  const oldVal = tree[currIdx];
+  const newVal = _shift(tree, childNode);
+  tree[currIdx] = newVal;
   return oldVal;
 }
 

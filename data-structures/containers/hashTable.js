@@ -77,7 +77,17 @@ HashTable.prototype[Symbol.iterator] = function () {
 
 HashTable.prototype.has = function has(key) {
   const idx = this._hash(key);
-  return this._array[idx] !== undefined;
+  const bucket = this._array[idx];
+  if (!bucket) {
+    return false;
+  }
+
+  for (let i = 0; i < bucket.length; ++i) {
+    if (bucket[i] === key) {
+      return true;
+    }
+  }
+  return false;
 };
 
 module.exports = HashTable;

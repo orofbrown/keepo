@@ -3,7 +3,7 @@ const Functions = (function () {
 
   const existsOn = (obj, prop) => obj[prop] !== null && obj[prop] !== undefined;
 
-  const isPrimitive = (val) => typeof val != "object";
+  const isPrimitive = (val) => typeof val != 'object';
 
   function* range() {
     const startIsNull = () => arguments.length === 1;

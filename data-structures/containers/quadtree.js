@@ -3,7 +3,7 @@
  *  Region QuadTree implemented in JavaScript using Arrays
  *  -> every INTERNAL node has exactly 4 children
  */
-const { BoundingBox, Point } = require("./structs");
+const { BoundingBox, Point } = require('./structs');
 
 const NODE_CAPACITY = 4; // every internal node (non-leaf) must have exactly 4 children
 const MAX_LEVELS = 5;
@@ -39,7 +39,7 @@ QuadTree.prototype.split = function () {
     lvl,
     x + subWidth,
     y + subWidth,
-    subWidth
+    subWidth,
   );
 };
 
@@ -90,7 +90,6 @@ QuadTree.prototype.insert = function (box) {
     // if this tree is full, try to split and move it to a child
     if (this.root.data.length > NODE_CAPACITY) {
       if (!this.hasChildren()) {
-        console.log("here 2", this.level, box);
         this.split();
       }
 
@@ -120,8 +119,8 @@ QuadTree.prototype.retrieve = function (box) {
 QuadTree.prototype.printNodes = function () {
   console.log();
   console.log(`node level ${this.level}`);
-  console.log("objects: ", this.root.data);
-  console.log("children: ", this.root.children);
+  console.log('objects: ', this.root.data);
+  console.log('children: ', this.root.children);
   // this.root.children.forEach((n) => n.printNodes());
 };
 
@@ -131,7 +130,7 @@ QuadTree.prototype.printStructure = function () {
 
 function main() {
   const sample = [1, 2, 3, 4, 5, 6, 7, 8].map(
-    (i) => new BoundingBox(new Point(i * 16, i * 16), 16)
+    (i) => new BoundingBox(new Point(i * 16, i * 16), 16),
   );
   const t = new QuadTree(0, 0, 0, 256);
 

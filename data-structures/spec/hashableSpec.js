@@ -4,7 +4,15 @@ describe('Hashable Types:', function () {
   const HashSet = require('../containers/hashSet');
   const { zip } = require('../functions');
 
-  const array = ['a', 'foo', 13, '13', true, 98, 'a'];
+  const array = [
+    'a',
+    'foo',
+    13,
+    '13',
+    true,
+    98, // should collide with '13'
+    'a',
+  ];
 
   describe('HashTable', () => {
     this.hashTable;
@@ -20,8 +28,9 @@ describe('Hashable Types:', function () {
       expect([...this.hashTable].indexOf('a', indexOfA + 1)).toBe(-1);
     });
 
-    it('should check if it has a given element', () => {
-      array.forEach((i) => expect(this.hashTable.has(i)).toBeTrue());
+    it('should correctly check if it has a given element', () => {
+      array.forEach((i) => expect(this.hashTable.has(i)).toBeTruthy());
+      expect(this.hashTable.has(211)).toBeFalsy(); // should collide with 'foo'
     });
 
     it('should return the size of the HashTable', () => {
@@ -111,6 +120,31 @@ describe('Hashable Types:', function () {
   });
 
   describe('HashSet', function () {
-    it('should ', () => {});
+    const setA = new HashSet([2, 4, 6, 8]);
+    const setB = new HashSet([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]);
+
+    it('should implement difference', () => {
+      expect(setA.difference(setB)).toEqual(new HashSet([1, 3, 5, 7, 9, 0]));
+      expect(setB.difference(setA)).toEqual(new HashSet([]));
+    });
+
+    it('should implement intersection', () => {
+      expect(setA.intersection(setB)).toEqual(new HashSet([2, 4, 6, 8]));
+      expect(setB.intersection(setA)).toEqual(new HashSet([2, 4, 6, 8]));
+    });
+
+    it('should implement subset', () => {
+      expect(setA.subset(setB)).toBeTruthy();
+      expect(setB.subset(setA)).toBeFalsy();
+    });
+
+    it('should implement union', () => {
+      expect(setA.union(setB)).toEqual(
+        new HashSet([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]),
+      );
+      expect(setB.union(setA)).toEqual(
+        new HashSet([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]),
+      );
+    });
   });
 });
