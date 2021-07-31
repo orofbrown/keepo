@@ -1,0 +1,6933 @@
+[
+  {
+    "indexATKAfterNotAttack": 1
+  },
+  {
+    "EditorCustomThings": {
+      "bossSpriteImageUrl": "https://i.imgur.com/8fLZMGP.png",
+      "bossSpriteSizeX": 1250,
+      "bossSpriteSizeY": 610,
+      "boneSpriteType1ImageUrl": "",
+      "boneSpriteType1SizeX": 100,
+      "boneSpriteType1SizeY": 100,
+      "gasterSpriteImageUrl": "",
+      "gasterSpriteSizeX": 50,
+      "gasterSpriteSizeY": 50,
+      "backgroundSongUrl": "https://raw.githubusercontent.com/SnightCoder/SnightChecker/main/songs/Shanghaivania.mp3",
+      "bossVoiceUrl": ""
+    }
+  },
+  {
+    "EditorListATK": {
+      "atk": [
+        {
+          "time": 2.4,
+          "boxID": 0,
+          "HeartPosition": {
+            "x": 3.3499999046325684,
+            "y": 1.6100000143051147
+          }
+        },
+        {
+          "time": 12,
+          "boxID": 0,
+          "HeartPosition": {
+            "x": 3.3499999046325684,
+            "y": 1.6100000143051147
+          }
+        },
+        {
+          "time": 12,
+          "boxID": 0,
+          "HeartPosition": {
+            "x": 3.3499999046325684,
+            "y": 1.6100000143051147
+          }
+        },
+        {
+          "time": 12,
+          "boxID": 0,
+          "HeartPosition": {
+            "x": 3.3499999046325684,
+            "y": 1.6100000143051147
+          }
+        },
+        {
+          "time": 10,
+          "boxID": 1,
+          "HeartPosition": {
+            "x": 4.349999904632568,
+            "y": 2.6100000143051147
+          }
+        },
+        {
+          "time": 49.5,
+          "boxID": 0,
+          "HeartPosition": {
+            "x": 4.349999904632568,
+            "y": 2.6100000143051147
+          }
+        },
+        {
+          "time": 55.1,
+          "boxID": 0,
+          "HeartPosition": {
+            "x": 4.349999904632568,
+            "y": 2.6100000143051147
+          }
+        },
+        {
+          "time": 30,
+          "boxID": 0,
+          "HeartPosition": {
+            "x": 4.349999904632568,
+            "y": 2.6100000143051147
+          }
+        },
+        {
+          "time": 30,
+          "boxID": 0,
+          "HeartPosition": {
+            "x": 4.349999904632568,
+            "y": 2.6100000143051147
+          }
+        },
+        {
+          "time": 30,
+          "boxID": 0,
+          "HeartPosition": {
+            "x": 4.349999904632568,
+            "y": 2.6100000143051147
+          }
+        },
+        {
+          "time": 30,
+          "boxID": 0,
+          "HeartPosition": {
+            "x": 4.349999904632568,
+            "y": 2.6100000143051147
+          }
+        },
+        {
+          "time": 30,
+          "boxID": 0,
+          "HeartPosition": {
+            "x": 4.349999904632568,
+            "y": 2.6100000143051147
+          }
+        },
+        {
+          "time": 30,
+          "boxID": 0,
+          "HeartPosition": {
+            "x": 4.349999904632568,
+            "y": 2.6100000143051147
+          }
+        },
+        {
+          "time": 30,
+          "boxID": 1,
+          "HeartPosition": {
+            "x": 4.349999904632568,
+            "y": 2.6100000143051147
+          }
+        },
+        {
+          "time": 30,
+          "boxID": 0,
+          "HeartPosition": {
+            "x": 4.349999904632568,
+            "y": 2.6100000143051147
+          }
+        },
+        {
+          "time": 30,
+          "boxID": 15,
+          "HeartPosition": {
+            "x": 4.349999904632568,
+            "y": 2.6100000143051147
+          }
+        }
+      ]
+    }
+  },
+  {
+    "EditorListStringDialog": {
+      "text": [
+        {
+          "text": "WHAT THE FASE PAL? ;)"
+        },
+        {
+          "text": "SANESSS NEXT ;)"
+        },
+        {
+          "text": "...."
+        },
+        {
+          "text": "it's hardmode!"
+        },
+        {
+          "text": "...."
+        },
+        {
+          "text": "burn in hell ;)"
+        },
+        {
+          "text": "please"
+        },
+        {
+          "text": "...."
+        },
+        {
+          "text": "i am so tired..."
+        },
+        {
+          "text": "puf puf"
+        },
+        {
+          "text": "..."
+        },
+        {
+          "text": "wait"
+        },
+        {
+          "text": "LUNTIC SANS DEAD TOO"
+        },
+        {
+          "text": ";)"
+        },
+        {
+          "text": "i want die"
+        },
+        {
+          "text": "..."
+        },
+        {
+          "text": "?..."
+        },
+        {
+          "text": "ok, ok, ok."
+        },
+        {
+          "text": "good child"
+        },
+        {
+          "text": "hard"
+        },
+        {
+          "text": "error ;)"
+        },
+        {
+          "text": "die ;)"
+        },
+        {
+          "text": ";)."
+        },
+        {
+          "text": "estavesdhhdhd"
+        }
+      ]
+    }
+  },
+  {
+    "EditorListStringDialogBeforeAttackAndString": {
+      "dialog": [
+        {
+          "numberOfDialogueBeforeAttackCome": 2,
+          "textInBox": " * The final battle."
+        },
+        {
+          "numberOfDialogueBeforeAttackCome": 2,
+          "textInBox": " * G."
+        },
+        {
+          "numberOfDialogueBeforeAttackCome": 1,
+          "textInBox": " * 999999999 left."
+        },
+        {
+          "numberOfDialogueBeforeAttackCome": 1,
+          "textInBox": " * luntic."
+        },
+        {
+          "numberOfDialogueBeforeAttackCome": 1,
+          "textInBox": " * die."
+        },
+        {
+          "numberOfDialogueBeforeAttackCome": 1,
+          "textInBox": " * is the final battle?."
+        },
+        {
+          "numberOfDialogueBeforeAttackCome": 1,
+          "textInBox": " * just keep attacking."
+        },
+        {
+          "numberOfDialogueBeforeAttackCome": 1,
+          "textInBox": " * ..."
+        },
+        {
+          "numberOfDialogueBeforeAttackCome": 4,
+          "textInBox": " * battle is cool!."
+        },
+        {
+          "numberOfDialogueBeforeAttackCome": 1,
+          "textInBox": " * ink sans sleep."
+        },
+        {
+          "numberOfDialogueBeforeAttackCome": 2,
+          "textInBox": " * ink draw you"
+        },
+        {
+          "numberOfDialogueBeforeAttackCome": 1,
+          "textInBox": " * The final kill"
+        },
+        {
+          "numberOfDialogueBeforeAttackCome": 2,
+          "textInBox": " * use your knife!"
+        },
+        {
+          "numberOfDialogueBeforeAttackCome": 2,
+          "textInBox": " * bruh"
+        },
+        {
+          "numberOfDialogueBeforeAttackCome": 1,
+          "textInBox": " * kill him"
+        },
+        {
+          "numberOfDialogueBeforeAttackCome": 1,
+          "textInBox": " * The final battle?"
+        }
+      ]
+    }
+  },
+  {
+    "EditorListItem": {
+      "item": [
+        {
+          "name": "TML",
+          "hpRecover": 999999999
+        },
+        {
+          "name": "TML ",
+          "hpRecover": 9999999
+        },
+        {
+          "name": "TML",
+          "hpRecover": 9999999999
+        },
+        {
+          "name": "TML",
+          "hpRecover": 9999999999
+        },
+        {
+          "name": "TML",
+          "hpRecover": 99999999
+        },
+        {
+          "name": "TML",
+          "hpRecover": 99999
+        }
+      ]
+    }
+  },
+  {
+    "EditorListBox": {
+      "box": [
+        {
+          "Vleft": {
+            "x": 1.5299999713897705,
+            "y": 1.600000023841858
+          },
+          "Vright": {
+            "x": 5.119999885559082,
+            "y": 1.600000023841858
+          },
+          "Vup": {
+            "x": 3.3299999237060547,
+            "y": 3.3499999046325684
+          },
+          "Vdown": {
+            "x": 3.3299999237060547,
+            "y": -0.14000000059604645
+          },
+          "Syleft": 2.93184494972229,
+          "Syright": 2.93184494972229,
+          "Syup": 2.974637031555176,
+          "Sydown": 2.974637031555176
+        },
+        {
+          "Vleft": {
+            "x": -0.25,
+            "y": 1.339964747428894
+          },
+          "Vright": {
+            "x": 7.179999828338623,
+            "y": 1.339964747428894
+          },
+          "Vup": {
+            "x": 3.4600000381469727,
+            "y": 2.81996488571167
+          },
+          "Vdown": {
+            "x": 3.4600000381469727,
+            "y": -0.14000000059604645
+          },
+          "Syleft": 2.445539951324463,
+          "Syright": 2.445539951324463,
+          "Syup": 6.179999828338623,
+          "Sydown": 6.179999828338623
+        },
+        {
+          "Vleft": {
+            "x": 1.5299999713897705,
+            "y": 1.339964747428894
+          },
+          "Vright": {
+            "x": 5.179999828338623,
+            "y": 1.339964747428894
+          },
+          "Vup": {
+            "x": 3.4600000381469727,
+            "y": 3.81996488571167
+          },
+          "Vdown": {
+            "x": 3.4600000381469727,
+            "y": -0.14000000059604645
+          },
+          "Syleft": 2.93184494972229,
+          "Syright": 2.93184494972229,
+          "Syup": 2.974637031555176,
+          "Sydown": 2.974637031555176
+        },
+        {
+          "Vleft": {
+            "x": -0.25,
+            "y": 1.339964747428894
+          },
+          "Vright": {
+            "x": 7.179999828338623,
+            "y": 1.339964747428894
+          },
+          "Vup": {
+            "x": 3.4600000381469727,
+            "y": 2.81996488571167
+          },
+          "Vdown": {
+            "x": 3.4600000381469727,
+            "y": -0.14000000059604645
+          },
+          "Syleft": 2.445539951324463,
+          "Syright": 2.445539951324463,
+          "Syup": 6.179999828338623,
+          "Sydown": 6.179999828338623
+        },
+        {
+          "Vleft": {
+            "x": -0.25,
+            "y": 0.339964747428894
+          },
+          "Vright": {
+            "x": 7.179999828338623,
+            "y": 1.339964747428894
+          },
+          "Vup": {
+            "x": 2.4600000381469727,
+            "y": 2.81996488571167
+          },
+          "Vdown": {
+            "x": 3.4600000381469727,
+            "y": -0.14000000059604645
+          },
+          "Syleft": 2.445539951324463,
+          "Syright": 2.445539951324463,
+          "Syup": 8.179999828338623,
+          "Sydown": 8.179999828338623
+        },
+        {
+          "Vleft": {
+            "x": -0.25,
+            "y": 0.339964747428894
+          },
+          "Vright": {
+            "x": 7.179999828338623,
+            "y": 1.339964747428894
+          },
+          "Vup": {
+            "x": 2.4600000381469727,
+            "y": 2.81996488571167
+          },
+          "Vdown": {
+            "x": 3.4600000381469727,
+            "y": -0.14000000059604645
+          },
+          "Syleft": 2.445539951324463,
+          "Syright": 2.445539951324463,
+          "Syup": 8.179999828338623,
+          "Sydown": 8.179999828338623
+        },
+        {
+          "Vleft": {
+            "x": -0.25,
+            "y": 0.339964747428894
+          },
+          "Vright": {
+            "x": 7.179999828338623,
+            "y": 1.339964747428894
+          },
+          "Vup": {
+            "x": 2.4600000381469727,
+            "y": 2.81996488571167
+          },
+          "Vdown": {
+            "x": 3.4600000381469727,
+            "y": -0.14000000059604645
+          },
+          "Syleft": 2.445539951324463,
+          "Syright": 2.445539951324463,
+          "Syup": 8.179999828338623,
+          "Sydown": 8.179999828338623
+        },
+        {
+          "Vleft": {
+            "x": -0.25,
+            "y": 0.339964747428894
+          },
+          "Vright": {
+            "x": 7.179999828338623,
+            "y": 1.339964747428894
+          },
+          "Vup": {
+            "x": 2.4600000381469727,
+            "y": 2.81996488571167
+          },
+          "Vdown": {
+            "x": 3.4600000381469727,
+            "y": -0.14000000059604645
+          },
+          "Syleft": 2.445539951324463,
+          "Syright": 2.445539951324463,
+          "Syup": 8.179999828338623,
+          "Sydown": 8.179999828338623
+        },
+        {
+          "Vleft": {
+            "x": -0.25,
+            "y": 0.339964747428894
+          },
+          "Vright": {
+            "x": 7.179999828338623,
+            "y": 1.339964747428894
+          },
+          "Vup": {
+            "x": 2.4600000381469727,
+            "y": 2.81996488571167
+          },
+          "Vdown": {
+            "x": 3.4600000381469727,
+            "y": -0.14000000059604645
+          },
+          "Syleft": 2.445539951324463,
+          "Syright": 2.445539951324463,
+          "Syup": 8.179999828338623,
+          "Sydown": 8.179999828338623
+        },
+        {
+          "Vleft": {
+            "x": -0.25,
+            "y": 0.339964747428894
+          },
+          "Vright": {
+            "x": 7.179999828338623,
+            "y": 1.339964747428894
+          },
+          "Vup": {
+            "x": 2.4600000381469727,
+            "y": 2.81996488571167
+          },
+          "Vdown": {
+            "x": 3.4600000381469727,
+            "y": -0.14000000059604645
+          },
+          "Syleft": 2.445539951324463,
+          "Syright": 2.445539951324463,
+          "Syup": 8.179999828338623,
+          "Sydown": 8.179999828338623
+        },
+        {
+          "Vleft": {
+            "x": -0.25,
+            "y": 0.339964747428894
+          },
+          "Vright": {
+            "x": 7.179999828338623,
+            "y": 1.339964747428894
+          },
+          "Vup": {
+            "x": 2.4600000381469727,
+            "y": 2.81996488571167
+          },
+          "Vdown": {
+            "x": 3.4600000381469727,
+            "y": -0.14000000059604645
+          },
+          "Syleft": 2.445539951324463,
+          "Syright": 2.445539951324463,
+          "Syup": 8.179999828338623,
+          "Sydown": 8.179999828338623
+        },
+        {
+          "Vleft": {
+            "x": -0.25,
+            "y": 0.339964747428894
+          },
+          "Vright": {
+            "x": 7.179999828338623,
+            "y": 1.339964747428894
+          },
+          "Vup": {
+            "x": 2.4600000381469727,
+            "y": 2.81996488571167
+          },
+          "Vdown": {
+            "x": 3.4600000381469727,
+            "y": -0.14000000059604645
+          },
+          "Syleft": 2.445539951324463,
+          "Syright": 2.445539951324463,
+          "Syup": 8.179999828338623,
+          "Sydown": 8.179999828338623
+        },
+        {
+          "Vleft": {
+            "x": -0.25,
+            "y": 0.339964747428894
+          },
+          "Vright": {
+            "x": 7.179999828338623,
+            "y": 1.339964747428894
+          },
+          "Vup": {
+            "x": 2.4600000381469727,
+            "y": 2.81996488571167
+          },
+          "Vdown": {
+            "x": 3.4600000381469727,
+            "y": -0.14000000059604645
+          },
+          "Syleft": 2.445539951324463,
+          "Syright": 2.445539951324463,
+          "Syup": 8.179999828338623,
+          "Sydown": 8.179999828338623
+        },
+        {
+          "Vleft": {
+            "x": -0.25,
+            "y": 0.339964747428894
+          },
+          "Vright": {
+            "x": 7.179999828338623,
+            "y": 1.339964747428894
+          },
+          "Vup": {
+            "x": 2.4600000381469727,
+            "y": 2.81996488571167
+          },
+          "Vdown": {
+            "x": 3.4600000381469727,
+            "y": -0.14000000059604645
+          },
+          "Syleft": 2.445539951324463,
+          "Syright": 2.445539951324463,
+          "Syup": 8.179999828338623,
+          "Sydown": 8.179999828338623
+        },
+        {
+          "Vleft": {
+            "x": -0.25,
+            "y": 0.339964747428894
+          },
+          "Vright": {
+            "x": 7.179999828338623,
+            "y": 1.339964747428894
+          },
+          "Vup": {
+            "x": 2.4600000381469727,
+            "y": 2.81996488571167
+          },
+          "Vdown": {
+            "x": 3.4600000381469727,
+            "y": -0.14000000059604645
+          },
+          "Syleft": 2.445539951324463,
+          "Syright": 2.445539951324463,
+          "Syup": 8.179999828338623,
+          "Sydown": 8.179999828338623
+        },
+        {
+          "Vleft": {
+            "x": -3.25,
+            "y": -3.339964747428894
+          },
+          "Vright": {
+            "x": 7.179999828338623,
+            "y": 1.339964747428894
+          },
+          "Vup": {
+            "x": 1.4600000381469729,
+            "y": 2.81996488571167
+          },
+          "Vdown": {
+            "x": 3.4600000381469727,
+            "y": -0.14000000059604645
+          },
+          "Syleft": 5.445539951324463,
+          "Syright": 5.445539951324463,
+          "Syup": 9.179999828338623,
+          "Sydown": 2.179999828338623
+        }
+      ]
+    }
+  },
+  {
+    "EditorBossName": "InK sAnS!"
+  },
+  {
+    "EditorBossNameACT": "ChEcK"
+  },
+  {
+    "EditorBossNameCheck": "* ink sans - ATK ∞ - DEF ∞.\nhE iS lUnAtIc  KILL HIM!!!!!\n[lunatic mode onn]"
+  },
+  {
+    "EditorAddBoxSetter": {
+      "box": []
+    }
+  },
+  {
+    "EditorListBoneATK": {
+      "bone": [
+        {
+          "indexATK": 1,
+          "inBox": true,
+          "type": 0,
+          "followPlayer": false,
+          "pos": {
+            "x": 1,
+            "y": 1.6
+          },
+          "rotateDegree": 0,
+          "scale": {
+            "x": 2.1441490650177,
+            "y": 3.2780659198760986
+          },
+          "timeStay": 0,
+          "color": 2,
+          "posSetter": [
+            {
+              "newPos": {
+                "x": 5.5,
+                "y": 1.6
+              },
+              "waitToBeEnabled": 1,
+              "lerpTime": 0.5,
+              "followPlayer": false
+            }
+          ],
+          "rosSetter": [],
+          "scaleSetter": [],
+          "colorSetter": []
+        },
+        {
+          "indexATK": 1,
+          "inBox": true,
+          "type": 0,
+          "followPlayer": false,
+          "pos": {
+            "x": 1,
+            "y": 1.6
+          },
+          "rotateDegree": 0,
+          "scale": {
+            "x": 2.1441490650177,
+            "y": 3.2780659198760986
+          },
+          "timeStay": 0,
+          "color": 1,
+          "posSetter": [
+            {
+              "newPos": {
+                "x": 5.5,
+                "y": 1.6
+              },
+              "waitToBeEnabled": 1.15,
+              "lerpTime": 0.5,
+              "followPlayer": false
+            }
+          ],
+          "rosSetter": [],
+          "scaleSetter": [],
+          "colorSetter": []
+        },
+        {
+          "indexATK": 1,
+          "inBox": true,
+          "type": 0,
+          "followPlayer": false,
+          "pos": {
+            "x": 1,
+            "y": 1.6
+          },
+          "rotateDegree": 0,
+          "scale": {
+            "x": 2.1441490650177,
+            "y": 3.2780659198760986
+          },
+          "timeStay": 0,
+          "color": 2,
+          "posSetter": [
+            {
+              "newPos": {
+                "x": 5.5,
+                "y": 1.6
+              },
+              "waitToBeEnabled": 1.3,
+              "lerpTime": 0.5,
+              "followPlayer": false
+            }
+          ],
+          "rosSetter": [],
+          "scaleSetter": [],
+          "colorSetter": []
+        },
+        {
+          "indexATK": 1,
+          "inBox": true,
+          "type": 0,
+          "followPlayer": false,
+          "pos": {
+            "x": 5.5,
+            "y": 1.6
+          },
+          "rotateDegree": 0,
+          "scale": {
+            "x": 2.1441490650177,
+            "y": 3.2780659198760986
+          },
+          "timeStay": 0,
+          "color": 2,
+          "posSetter": [
+            {
+              "newPos": {
+                "x": 1,
+                "y": 1.6
+              },
+              "waitToBeEnabled": 1,
+              "lerpTime": 0.5,
+              "followPlayer": false
+            }
+          ],
+          "rosSetter": [],
+          "scaleSetter": [],
+          "colorSetter": []
+        },
+        {
+          "indexATK": 1,
+          "inBox": true,
+          "type": 0,
+          "followPlayer": false,
+          "pos": {
+            "x": 5.5,
+            "y": 1.6
+          },
+          "rotateDegree": 0,
+          "scale": {
+            "x": 2.1441490650177,
+            "y": 3.2780659198760986
+          },
+          "timeStay": 0,
+          "color": 1,
+          "posSetter": [
+            {
+              "newPos": {
+                "x": 1,
+                "y": 1.6
+              },
+              "waitToBeEnabled": 1.15,
+              "lerpTime": 0.5,
+              "followPlayer": false
+            }
+          ],
+          "rosSetter": [],
+          "scaleSetter": [],
+          "colorSetter": []
+        },
+        {
+          "indexATK": 1,
+          "inBox": true,
+          "type": 0,
+          "followPlayer": false,
+          "pos": {
+            "x": 5.5,
+            "y": 1.6
+          },
+          "rotateDegree": 0,
+          "scale": {
+            "x": 2.1441490650177,
+            "y": 3.2780659198760986
+          },
+          "timeStay": 0,
+          "color": 2,
+          "posSetter": [
+            {
+              "newPos": {
+                "x": 1,
+                "y": 1.6
+              },
+              "waitToBeEnabled": 1.3,
+              "lerpTime": 0.5,
+              "followPlayer": false
+            }
+          ],
+          "rosSetter": [],
+          "scaleSetter": [],
+          "colorSetter": []
+        },
+        {
+          "indexATK": 1,
+          "inBox": true,
+          "type": 0,
+          "followPlayer": false,
+          "pos": {
+            "x": 5.5,
+            "y": 3.2
+          },
+          "rotateDegree": 0,
+          "scale": {
+            "x": 2.1441490650177,
+            "y": 3.2780659198760986
+          },
+          "timeStay": 0,
+          "color": 1,
+          "posSetter": [
+            {
+              "newPos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "waitToBeEnabled": 2,
+              "lerpTime": 1.5,
+              "followPlayer": false
+            }
+          ],
+          "rosSetter": [],
+          "scaleSetter": [],
+          "colorSetter": []
+        },
+        {
+          "indexATK": 1,
+          "inBox": true,
+          "type": 0,
+          "followPlayer": false,
+          "pos": {
+            "x": 5.5,
+            "y": 3.2
+          },
+          "rotateDegree": 0,
+          "scale": {
+            "x": 2.1441490650177,
+            "y": 3.2780659198760986
+          },
+          "timeStay": 0,
+          "color": 2,
+          "posSetter": [
+            {
+              "newPos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "waitToBeEnabled": 2.2,
+              "lerpTime": 1.5,
+              "followPlayer": false
+            }
+          ],
+          "rosSetter": [],
+          "scaleSetter": [],
+          "colorSetter": []
+        },
+        {
+          "indexATK": 1,
+          "inBox": true,
+          "type": 0,
+          "followPlayer": false,
+          "pos": {
+            "x": 5.5,
+            "y": 3.2
+          },
+          "rotateDegree": 0,
+          "scale": {
+            "x": 2.1441490650177,
+            "y": 3.2780659198760986
+          },
+          "timeStay": 0,
+          "color": 2,
+          "posSetter": [
+            {
+              "newPos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "waitToBeEnabled": 2.4,
+              "lerpTime": 1.5,
+              "followPlayer": false
+            }
+          ],
+          "rosSetter": [],
+          "scaleSetter": [],
+          "colorSetter": []
+        },
+        {
+          "indexATK": 1,
+          "inBox": true,
+          "type": 0,
+          "followPlayer": false,
+          "pos": {
+            "x": 5.5,
+            "y": 3.2
+          },
+          "rotateDegree": 0,
+          "scale": {
+            "x": 2.1441490650177,
+            "y": 3.2780659198760986
+          },
+          "timeStay": 0,
+          "color": 2,
+          "posSetter": [
+            {
+              "newPos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "waitToBeEnabled": 2.6,
+              "lerpTime": 1.5,
+              "followPlayer": false
+            }
+          ],
+          "rosSetter": [],
+          "scaleSetter": [],
+          "colorSetter": []
+        },
+        {
+          "indexATK": 1,
+          "inBox": true,
+          "type": 0,
+          "followPlayer": false,
+          "pos": {
+            "x": 5.5,
+            "y": 3.2
+          },
+          "rotateDegree": 0,
+          "scale": {
+            "x": 2.1441490650177,
+            "y": 3.2780659198760986
+          },
+          "timeStay": 0,
+          "color": 1,
+          "posSetter": [
+            {
+              "newPos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "waitToBeEnabled": 2.8,
+              "lerpTime": 1.5,
+              "followPlayer": false
+            }
+          ],
+          "rosSetter": [],
+          "scaleSetter": [],
+          "colorSetter": []
+        },
+        {
+          "indexATK": 1,
+          "inBox": true,
+          "type": 0,
+          "followPlayer": false,
+          "pos": {
+            "x": 5.5,
+            "y": 3.2
+          },
+          "rotateDegree": 0,
+          "scale": {
+            "x": 2.1441490650177,
+            "y": 3.2780659198760986
+          },
+          "timeStay": 0,
+          "color": 2,
+          "posSetter": [
+            {
+              "newPos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "waitToBeEnabled": 3,
+              "lerpTime": 1.5,
+              "followPlayer": false
+            }
+          ],
+          "rosSetter": [],
+          "scaleSetter": [],
+          "colorSetter": []
+        },
+        {
+          "indexATK": 1,
+          "inBox": true,
+          "type": 0,
+          "followPlayer": false,
+          "pos": {
+            "x": 5.5,
+            "y": 3.2
+          },
+          "rotateDegree": 0,
+          "scale": {
+            "x": 2.1441490650177,
+            "y": 3.2780659198760986
+          },
+          "timeStay": 0,
+          "color": 2,
+          "posSetter": [
+            {
+              "newPos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "waitToBeEnabled": 3.2,
+              "lerpTime": 1.5,
+              "followPlayer": false
+            }
+          ],
+          "rosSetter": [],
+          "scaleSetter": [],
+          "colorSetter": []
+        },
+        {
+          "indexATK": 1,
+          "inBox": true,
+          "type": 0,
+          "followPlayer": false,
+          "pos": {
+            "x": 5.5,
+            "y": 3.2
+          },
+          "rotateDegree": 0,
+          "scale": {
+            "x": 2.1441490650177,
+            "y": 3.2780659198760986
+          },
+          "timeStay": 0,
+          "color": 2,
+          "posSetter": [
+            {
+              "newPos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "waitToBeEnabled": 3.4,
+              "lerpTime": 1.5,
+              "followPlayer": false
+            }
+          ],
+          "rosSetter": [],
+          "scaleSetter": [],
+          "colorSetter": []
+        },
+        {
+          "indexATK": 1,
+          "inBox": true,
+          "type": 0,
+          "followPlayer": false,
+          "pos": {
+            "x": 5.5,
+            "y": 3.2
+          },
+          "rotateDegree": 0,
+          "scale": {
+            "x": 2.1441490650177,
+            "y": 3.2780659198760986
+          },
+          "timeStay": 0,
+          "color": 1,
+          "posSetter": [
+            {
+              "newPos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "waitToBeEnabled": 3.6,
+              "lerpTime": 1.5,
+              "followPlayer": false
+            }
+          ],
+          "rosSetter": [],
+          "scaleSetter": [],
+          "colorSetter": []
+        },
+        {
+          "bone": [
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 5.5,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 1,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1.15,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1.3,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 5.5,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 1,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 5.5,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 1,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1.15,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 5.5,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 1,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1.3,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2.2,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2.4,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2.6,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2.8,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 3,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 3.2,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 3.4,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 3.8,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            }
+          ]
+        },
+        {
+          "bone": [
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 5.5,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 1,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1.15,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1.3,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 5.5,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 1,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 5.5,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 1,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1.15,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 5.5,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 1,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1.3,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2.2,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2.4,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2.6,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2.8,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 3,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 3.2,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 3.4,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 4,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            }
+          ]
+        },
+        {
+          "bone": [
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 5.5,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 1,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1.15,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1.3,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 5.5,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 1,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 5.5,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 1,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1.15,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 5.5,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 1,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1.3,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2.2,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2.4,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2.6,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2.8,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 3,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 3.2,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 3.4,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 4.2,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            }
+          ]
+        },
+        {
+          "bone": [
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 5.5,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 1,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1.15,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1.3,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 5.5,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 1,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 5.5,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 1,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1.15,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 5.5,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 1,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1.3,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2.2,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2.4,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2.6,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2.8,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 3,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 3.2,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 3.4,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 4.4,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            }
+          ]
+        },
+        {
+          "indexATK": 1,
+          "inBox": true,
+          "type": 0,
+          "followPlayer": false,
+          "pos": {
+            "x": 1,
+            "y": -0.1
+          },
+          "rotateDegree": 0,
+          "scale": {
+            "x": 2.1441490650177,
+            "y": 3.2780659198760986
+          },
+          "timeStay": 0,
+          "color": 1,
+          "posSetter": [
+            {
+              "newPos": {
+                "x": 5.5,
+                "y": -0.1
+              },
+              "waitToBeEnabled": 2,
+              "lerpTime": 1.5,
+              "followPlayer": false
+            }
+          ],
+          "rosSetter": [],
+          "scaleSetter": [],
+          "colorSetter": []
+        },
+        {
+          "indexATK": 1,
+          "inBox": true,
+          "type": 0,
+          "followPlayer": false,
+          "pos": {
+            "x": 1,
+            "y": -0.1
+          },
+          "rotateDegree": 0,
+          "scale": {
+            "x": 2.1441490650177,
+            "y": 3.2780659198760986
+          },
+          "timeStay": 0,
+          "color": 2,
+          "posSetter": [
+            {
+              "newPos": {
+                "x": 5.5,
+                "y": -0.1
+              },
+              "waitToBeEnabled": 2.2,
+              "lerpTime": 1.5,
+              "followPlayer": false
+            }
+          ],
+          "rosSetter": [],
+          "scaleSetter": [],
+          "colorSetter": []
+        },
+        {
+          "indexATK": 1,
+          "inBox": true,
+          "type": 0,
+          "followPlayer": false,
+          "pos": {
+            "x": 1,
+            "y": -0.1
+          },
+          "rotateDegree": 0,
+          "scale": {
+            "x": 2.1441490650177,
+            "y": 3.2780659198760986
+          },
+          "timeStay": 0,
+          "color": 2,
+          "posSetter": [
+            {
+              "newPos": {
+                "x": 5.5,
+                "y": -0.1
+              },
+              "waitToBeEnabled": 2.4,
+              "lerpTime": 1.5,
+              "followPlayer": false
+            }
+          ],
+          "rosSetter": [],
+          "scaleSetter": [],
+          "colorSetter": []
+        },
+        {
+          "indexATK": 1,
+          "inBox": true,
+          "type": 0,
+          "followPlayer": false,
+          "pos": {
+            "x": 1,
+            "y": -0.1
+          },
+          "rotateDegree": 0,
+          "scale": {
+            "x": 2.1441490650177,
+            "y": 3.2780659198760986
+          },
+          "timeStay": 0,
+          "color": 2,
+          "posSetter": [
+            {
+              "newPos": {
+                "x": 5.5,
+                "y": -0.1
+              },
+              "waitToBeEnabled": 2.6,
+              "lerpTime": 1.5,
+              "followPlayer": false
+            }
+          ],
+          "rosSetter": [],
+          "scaleSetter": [],
+          "colorSetter": []
+        },
+        {
+          "indexATK": 1,
+          "inBox": true,
+          "type": 0,
+          "followPlayer": false,
+          "pos": {
+            "x": 1,
+            "y": -0.1
+          },
+          "rotateDegree": 0,
+          "scale": {
+            "x": 2.1441490650177,
+            "y": 3.2780659198760986
+          },
+          "timeStay": 0,
+          "color": 1,
+          "posSetter": [
+            {
+              "newPos": {
+                "x": 5.5,
+                "y": -0.1
+              },
+              "waitToBeEnabled": 2.8,
+              "lerpTime": 1.5,
+              "followPlayer": false
+            }
+          ],
+          "rosSetter": [],
+          "scaleSetter": [],
+          "colorSetter": []
+        },
+        {
+          "indexATK": 1,
+          "inBox": true,
+          "type": 0,
+          "followPlayer": false,
+          "pos": {
+            "x": 1,
+            "y": -0.1
+          },
+          "rotateDegree": 0,
+          "scale": {
+            "x": 2.1441490650177,
+            "y": 3.2780659198760986
+          },
+          "timeStay": 0,
+          "color": 2,
+          "posSetter": [
+            {
+              "newPos": {
+                "x": 5.5,
+                "y": -0.1
+              },
+              "waitToBeEnabled": 3,
+              "lerpTime": 1.5,
+              "followPlayer": false
+            }
+          ],
+          "rosSetter": [],
+          "scaleSetter": [],
+          "colorSetter": []
+        },
+        {
+          "indexATK": 1,
+          "inBox": true,
+          "type": 0,
+          "followPlayer": false,
+          "pos": {
+            "x": 1,
+            "y": -0.1
+          },
+          "rotateDegree": 0,
+          "scale": {
+            "x": 2.1441490650177,
+            "y": 3.2780659198760986
+          },
+          "timeStay": 0,
+          "color": 2,
+          "posSetter": [
+            {
+              "newPos": {
+                "x": 5.5,
+                "y": -0.1
+              },
+              "waitToBeEnabled": 3.2,
+              "lerpTime": 1.5,
+              "followPlayer": false
+            }
+          ],
+          "rosSetter": [],
+          "scaleSetter": [],
+          "colorSetter": []
+        },
+        {
+          "indexATK": 1,
+          "inBox": true,
+          "type": 0,
+          "followPlayer": false,
+          "pos": {
+            "x": 1,
+            "y": -0.1
+          },
+          "rotateDegree": 0,
+          "scale": {
+            "x": 2.1441490650177,
+            "y": 3.2780659198760986
+          },
+          "timeStay": 0,
+          "color": 2,
+          "posSetter": [
+            {
+              "newPos": {
+                "x": 5.5,
+                "y": -0.1
+              },
+              "waitToBeEnabled": 3.4,
+              "lerpTime": 1.5,
+              "followPlayer": false
+            }
+          ],
+          "rosSetter": [],
+          "scaleSetter": [],
+          "colorSetter": []
+        },
+        {
+          "indexATK": 1,
+          "inBox": true,
+          "type": 0,
+          "followPlayer": false,
+          "pos": {
+            "x": 1,
+            "y": -0.1
+          },
+          "rotateDegree": 0,
+          "scale": {
+            "x": 2.1441490650177,
+            "y": 3.2780659198760986
+          },
+          "timeStay": 0,
+          "color": 1,
+          "posSetter": [
+            {
+              "newPos": {
+                "x": 5.5,
+                "y": -0.1
+              },
+              "waitToBeEnabled": 3.6,
+              "lerpTime": 1.5,
+              "followPlayer": false
+            }
+          ],
+          "rosSetter": [],
+          "scaleSetter": [],
+          "colorSetter": []
+        },
+        {
+          "bone": [
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": -0.1
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": -0.1
+                  },
+                  "waitToBeEnabled": 1,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1.15,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1.3,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 5.5,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 1,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 5.5,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 1,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1.15,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 5.5,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 1,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1.3,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2.2,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2.4,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2.6,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2.8,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 3,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 3.2,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 3.4,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 3.8,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            }
+          ]
+        },
+        {
+          "bone": [
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": -0.1
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": -0.1
+                  },
+                  "waitToBeEnabled": 1,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1.15,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1.3,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 5.5,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 1,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 5.5,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 1,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1.15,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 5.5,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 1,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1.3,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2.2,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2.4,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2.6,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2.8,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 3,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 3.2,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 3.4,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 4,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            }
+          ]
+        },
+        {
+          "bone": [
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": -0.1
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": -0.1
+                  },
+                  "waitToBeEnabled": 1,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1.15,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1.3,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 5.5,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 1,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 5.5,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 1,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1.15,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 5.5,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 1,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1.3,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2.2,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2.4,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2.6,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2.8,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 3,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 3.2,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 3.4,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 4.2,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            }
+          ]
+        },
+        {
+          "bone": [
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": -0.1
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": -0.1
+                  },
+                  "waitToBeEnabled": 1,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1.15,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1.3,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 5.5,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 1,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 5.5,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 1,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1.15,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 5.5,
+                "y": 1.6
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 1,
+                    "y": 1.6
+                  },
+                  "waitToBeEnabled": 1.3,
+                  "lerpTime": 0.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2.2,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2.4,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2.6,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 2.8,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 3,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 3.2,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 3.4,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 1,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 1,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 4.4,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            },
+            {
+              "indexATK": 13,
+              "inBox": true,
+              "type": 0,
+              "followPlayer": false,
+              "pos": {
+                "x": 1,
+                "y": 3.2
+              },
+              "rotateDegree": 0,
+              "scale": {
+                "x": 2.1441490650177,
+                "y": 3.2780659198760986
+              },
+              "timeStay": 0,
+              "color": 2,
+              "posSetter": [
+                {
+                  "newPos": {
+                    "x": 5.5,
+                    "y": 3.2
+                  },
+                  "waitToBeEnabled": 4.4,
+                  "lerpTime": 1.5,
+                  "followPlayer": false
+                }
+              ],
+              "rosSetter": [],
+              "scaleSetter": [],
+              "colorSetter": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "EditorListGasterATK": {
+      "gaster": [
+        {
+          "indexATK": 0,
+          "waitToBeEnabled": 0,
+          "lerpTime": 0.9,
+          "lerpTimeWaitBeforeShoot": 0.9,
+          "lerpTimeLeave": 9.699999988079071,
+          "pos1": {
+            "x": -8.930000305175781,
+            "y": 10.800000190734863
+          },
+          "pos2": {
+            "x": -1.7599999904632568,
+            "y": 2.390000104904175
+          },
+          "random": false,
+          "randCircleSize": {
+            "x": 10,
+            "y": 5
+          },
+          "lookAtPlayer": true,
+          "rotateDegree1": 0,
+          "rotateDegree2": 90,
+          "rotateDegree2Add": 0,
+          "scale": {
+            "x": 9.5,
+            "y": 9.5
+          },
+          "timeStay": 0,
+          "colorBlaster": 0
+        },
+        {
+          "indexATK": 1,
+          "waitToBeEnabled": 0,
+          "lerpTime": 0.4,
+          "lerpTimeWaitBeforeShoot": 0.6,
+          "lerpTimeLeave": 0.699999988079071,
+          "pos1": {
+            "x": -8.930000305175781,
+            "y": 10.800000190734863
+          },
+          "pos2": {
+            "x": 6,
+            "y": 4
+          },
+          "random": false,
+          "randCircleSize": {},
+          "lookAtPlayer": false,
+          "rotateDegree1": 360,
+          "rotateDegree2": 310,
+          "rotateDegree2Add": 0,
+          "scale": {
+            "x": 3.78,
+            "y": 4.3
+          },
+          "timeStay": 0,
+          "colorBlaster": 0
+        },
+        {
+          "indexATK": 1,
+          "waitToBeEnabled": 0,
+          "lerpTime": 0.4,
+          "lerpTimeWaitBeforeShoot": 0.6,
+          "lerpTimeLeave": 0.699999988079071,
+          "pos1": {
+            "x": -8.930000305175781,
+            "y": 10.800000190734863
+          },
+          "pos2": {
+            "x": 0.5,
+            "y": 4
+          },
+          "random": false,
+          "randCircleSize": {},
+          "lookAtPlayer": false,
+          "rotateDegree1": 360,
+          "rotateDegree2": -310,
+          "rotateDegree2Add": 0,
+          "scale": {
+            "x": 3.78,
+            "y": 4.3
+          },
+          "timeStay": 0,
+          "colorBlaster": 0
+        },
+        {
+          "indexATK": 1,
+          "waitToBeEnabled": 4.6,
+          "lerpTime": 0.4,
+          "lerpTimeWaitBeforeShoot": 0.3,
+          "lerpTimeLeave": 0.699999988079071,
+          "pos1": {
+            "x": -8.930000305175781,
+            "y": 10.800000190734863
+          },
+          "pos2": {
+            "x": -1.7599999904632568,
+            "y": 2.390000104904175
+          },
+          "random": true,
+          "randCircleSize": {
+            "x": 10,
+            "y": 5
+          },
+          "lookAtPlayer": true,
+          "rotateDegree1": 0,
+          "rotateDegree2": 90,
+          "rotateDegree2Add": 0,
+          "scale": {
+            "x": 3.78,
+            "y": 4.3
+          },
+          "timeStay": 0,
+          "colorBlaster": 0
+        },
+        {
+          "indexATK": 1,
+          "waitToBeEnabled": 5.3,
+          "lerpTime": 0.4,
+          "lerpTimeWaitBeforeShoot": 0.3,
+          "lerpTimeLeave": 0.699999988079071,
+          "pos1": {
+            "x": -8.930000305175781,
+            "y": 10.800000190734863
+          },
+          "pos2": {
+            "x": -1.7599999904632568,
+            "y": 2.390000104904175
+          },
+          "random": true,
+          "randCircleSize": {
+            "x": 10,
+            "y": 5
+          },
+          "lookAtPlayer": true,
+          "rotateDegree1": 0,
+          "rotateDegree2": 90,
+          "rotateDegree2Add": 0,
+          "scale": {
+            "x": 3.78,
+            "y": 4.3
+          },
+          "timeStay": 0,
+          "colorBlaster": 0
+        },
+        {
+          "indexATK": 1,
+          "waitToBeEnabled": 6,
+          "lerpTime": 0.4,
+          "lerpTimeWaitBeforeShoot": 0.3,
+          "lerpTimeLeave": 0.699999988079071,
+          "pos1": {
+            "x": -8.930000305175781,
+            "y": 10.800000190734863
+          },
+          "pos2": {
+            "x": -1.7599999904632568,
+            "y": 2.390000104904175
+          },
+          "random": true,
+          "randCircleSize": {
+            "x": 10,
+            "y": 5
+          },
+          "lookAtPlayer": true,
+          "rotateDegree1": 0,
+          "rotateDegree2": 90,
+          "rotateDegree2Add": 0,
+          "scale": {
+            "x": 3.78,
+            "y": 4.3
+          },
+          "timeStay": 0,
+          "colorBlaster": 0
+        },
+        {
+          "indexATK": 1,
+          "waitToBeEnabled": 6.7,
+          "lerpTime": 0.4,
+          "lerpTimeWaitBeforeShoot": 0.3,
+          "lerpTimeLeave": 0.699999988079071,
+          "pos1": {
+            "x": -8.930000305175781,
+            "y": 10.800000190734863
+          },
+          "pos2": {
+            "x": -1.7599999904632568,
+            "y": 2.390000104904175
+          },
+          "random": true,
+          "randCircleSize": {
+            "x": 10,
+            "y": 5
+          },
+          "lookAtPlayer": true,
+          "rotateDegree1": 0,
+          "rotateDegree2": 90,
+          "rotateDegree2Add": 0,
+          "scale": {
+            "x": 3.78,
+            "y": 4.3
+          },
+          "timeStay": 0,
+          "colorBlaster": 0
+        },
+        {
+          "indexATK": 1,
+          "waitToBeEnabled": 1,
+          "lerpTime": 0.9,
+          "lerpTimeWaitBeforeShoot": 0.9,
+          "lerpTimeLeave": 9.699999988079071,
+          "pos1": {
+            "x": -8.930000305175781,
+            "y": 10.800000190734863
+          },
+          "pos2": {
+            "x": -1.7599999904632568,
+            "y": 2.390000104904175
+          },
+          "random": false,
+          "randCircleSize": {
+            "x": 3.3,
+            "y": 1.5
+          },
+          "lookAtPlayer": true,
+          "rotateDegree1": 0,
+          "rotateDegree2": 0,
+          "rotateDegree2Add": 0,
+          "scale": {
+            "x": 2.5,
+            "y": 4.3
+          },
+          "timeStay": 0,
+          "colorBlaster": 0
+        },
+        {
+          "indexATK": 2,
+          "waitToBeEnabled": 4.6,
+          "lerpTime": 0.4,
+          "lerpTimeWaitBeforeShoot": 0.3,
+          "lerpTimeLeave": 0.699999988079071,
+          "pos1": {
+            "x": -8.930000305175781,
+            "y": 10.800000190734863
+          },
+          "pos2": {
+            "x": -1.7599999904632568,
+            "y": 2.390000104904175
+          },
+          "random": true,
+          "randCircleSize": {
+            "x": 10,
+            "y": 5
+          },
+          "lookAtPlayer": true,
+          "rotateDegree1": 0,
+          "rotateDegree2": 90,
+          "rotateDegree2Add": 0,
+          "scale": {
+            "x": 3.78,
+            "y": 4.3
+          },
+          "timeStay": 0,
+          "colorBlaster": 0
+        },
+        {
+          "indexATK": 2,
+          "waitToBeEnabled": 5.3,
+          "lerpTime": 0.4,
+          "lerpTimeWaitBeforeShoot": 0.3,
+          "lerpTimeLeave": 0.699999988079071,
+          "pos1": {
+            "x": -8.930000305175781,
+            "y": 10.800000190734863
+          },
+          "pos2": {
+            "x": -1.7599999904632568,
+            "y": 2.390000104904175
+          },
+          "random": true,
+          "randCircleSize": {
+            "x": 10,
+            "y": 5
+          },
+          "lookAtPlayer": true,
+          "rotateDegree1": 0,
+          "rotateDegree2": 90,
+          "rotateDegree2Add": 0,
+          "scale": {
+            "x": 3.78,
+            "y": 4.3
+          },
+          "timeStay": 0,
+          "colorBlaster": 0
+        },
+        {
+          "indexATK": 2,
+          "waitToBeEnabled": 6,
+          "lerpTime": 0.4,
+          "lerpTimeWaitBeforeShoot": 0.3,
+          "lerpTimeLeave": 0.699999988079071,
+          "pos1": {
+            "x": -8.930000305175781,
+            "y": 10.800000190734863
+          },
+          "pos2": {
+            "x": -1.7599999904632568,
+            "y": 2.390000104904175
+          },
+          "random": true,
+          "randCircleSize": {
+            "x": 10,
+            "y": 5
+          },
+          "lookAtPlayer": true,
+          "rotateDegree1": 0,
+          "rotateDegree2": 90,
+          "rotateDegree2Add": 0,
+          "scale": {
+            "x": 3.78,
+            "y": 4.3
+          },
+          "timeStay": 0,
+          "colorBlaster": 0
+        },
+        {
+          "indexATK": 2,
+          "waitToBeEnabled": 6.7,
+          "lerpTime": 0.4,
+          "lerpTimeWaitBeforeShoot": 0.3,
+          "lerpTimeLeave": 0.699999988079071,
+          "pos1": {
+            "x": -8.930000305175781,
+            "y": 10.800000190734863
+          },
+          "pos2": {
+            "x": -1.7599999904632568,
+            "y": 2.390000104904175
+          },
+          "random": true,
+          "randCircleSize": {
+            "x": 10,
+            "y": 5
+          },
+          "lookAtPlayer": true,
+          "rotateDegree1": 0,
+          "rotateDegree2": 90,
+          "rotateDegree2Add": 0,
+          "scale": {
+            "x": 3.78,
+            "y": 4.3
+          },
+          "timeStay": 0,
+          "colorBlaster": 0
+        },
+        {
+          "indexATK": 5,
+          "waitToBeEnabled": 0,
+          "lerpTime": 0.9,
+          "lerpTimeWaitBeforeShoot": 9.6,
+          "lerpTimeLeave": 9.699999988079071,
+          "pos1": {
+            "x": -8.930000305175781,
+            "y": 10.800000190734863
+          },
+          "pos2": {
+            "x": 6,
+            "y": 4
+          },
+          "random": false,
+          "randCircleSize": {},
+          "lookAtPlayer": false,
+          "rotateDegree1": 360,
+          "rotateDegree2": 310,
+          "rotateDegree2Add": 0,
+          "scale": {
+            "x": 3.78,
+            "y": 4.3
+          },
+          "timeStay": 0,
+          "colorBlaster": 0
+        },
+        {
+          "indexATK": 5,
+          "waitToBeEnabled": 0,
+          "lerpTime": 0.9,
+          "lerpTimeWaitBeforeShoot": 9.6,
+          "lerpTimeLeave": 9.699999988079071,
+          "pos1": {
+            "x": -8.930000305175781,
+            "y": 10.800000190734863
+          },
+          "pos2": {
+            "x": 0.5,
+            "y": 4
+          },
+          "random": false,
+          "randCircleSize": {},
+          "lookAtPlayer": false,
+          "rotateDegree1": 360,
+          "rotateDegree2": -310,
+          "rotateDegree2Add": 0,
+          "scale": {
+            "x": 3.78,
+            "y": 4.3
+          },
+          "timeStay": 0,
+          "colorBlaster": 0
+        },
+        {
+          "indexATK": 5,
+          "waitToBeEnabled": 0,
+          "lerpTime": 1.4,
+          "lerpTimeWaitBeforeShoot": 9,
+          "lerpTimeLeave": 0.699999988079071,
+          "pos1": {
+            "x": -8.930000305175781,
+            "y": 10.800000190734863
+          },
+          "pos2": {
+            "x": 0.5,
+            "y": 4
+          },
+          "random": false,
+          "randCircleSize": {},
+          "lookAtPlayer": true,
+          "rotateDegree1": 0,
+          "rotateDegree2": 0,
+          "rotateDegree2Add": 0,
+          "scale": {
+            "x": 9.5,
+            "y": 4.3
+          },
+          "timeStay": 0,
+          "colorBlaster": 2
+        },
+        {
+          "indexATK": 5,
+          "waitToBeEnabled": 4,
+          "lerpTime": 0.5,
+          "lerpTimeWaitBeforeShoot": 9.6,
+          "lerpTimeLeave": 0.699999988079071,
+          "pos1": {
+            "x": -8.930000305175781,
+            "y": 10.800000190734863
+          },
+          "pos2": {
+            "x": 0.5,
+            "y": 4
+          },
+          "random": false,
+          "randCircleSize": {},
+          "lookAtPlayer": true,
+          "rotateDegree1": 0,
+          "rotateDegree2": 0,
+          "rotateDegree2Add": 0,
+          "scale": {
+            "x": 9.5,
+            "y": 4.3
+          },
+          "timeStay": 0,
+          "colorBlaster": 1
+        },
+        {
+          "indexATK": 5,
+          "waitToBeEnabled": 9,
+          "lerpTime": 0.6,
+          "lerpTimeWaitBeforeShoot": 9.6,
+          "lerpTimeLeave": 9.699999988079071,
+          "pos1": {
+            "x": -8.930000305175781,
+            "y": 10.800000190734863
+          },
+          "pos2": {
+            "x": 0.5,
+            "y": 4
+          },
+          "random": false,
+          "randCircleSize": {},
+          "lookAtPlayer": true,
+          "rotateDegree1": 0,
+          "rotateDegree2": 0,
+          "rotateDegree2Add": 0,
+          "scale": {
+            "x": 9.5,
+            "y": 4.3
+          },
+          "timeStay": 0,
+          "colorBlaster": 0
+        },
+        {
+          "indexATK": 5,
+          "waitToBeEnabled": 9.4,
+          "lerpTime": 0.6,
+          "lerpTimeWaitBeforeShoot": 9.6,
+          "lerpTimeLeave": 9.699999988079071,
+          "pos1": {
+            "x": -8.930000305175781,
+            "y": 10.800000190734863
+          },
+          "pos2": {
+            "x": 0.5,
+            "y": 4
+          },
+          "random": false,
+          "randCircleSize": {},
+          "lookAtPlayer": true,
+          "rotateDegree1": 0,
+          "rotateDegree2": 0,
+          "rotateDegree2Add": 0,
+          "scale": {
+            "x": 15.5,
+            "y": 10.3
+          },
+          "timeStay": 0,
+          "colorBlaster": 2
+        },
+        {
+          "indexATK": 5,
+          "waitToBeEnabled": 10.9,
+          "lerpTime": 0.6,
+          "lerpTimeWaitBeforeShoot": 9.6,
+          "lerpTimeLeave": 9.699999988079071,
+          "pos1": {
+            "x": -8.930000305175781,
+            "y": 10.800000190734863
+          },
+          "pos2": {
+            "x": 0.5,
+            "y": 4
+          },
+          "random": false,
+          "randCircleSize": {},
+          "lookAtPlayer": true,
+          "rotateDegree1": 0,
+          "rotateDegree2": 0,
+          "rotateDegree2Add": 0,
+          "scale": {
+            "x": 9.5,
+            "y": 4.3
+          },
+          "timeStay": 0,
+          "colorBlaster": 1
+        },
+        {
+          "indexATK": 6,
+          "waitToBeEnabled": 10.9,
+          "lerpTime": 0.6,
+          "lerpTimeWaitBeforeShoot": 9.6,
+          "lerpTimeLeave": 0.699999988079071,
+          "pos1": {
+            "x": -8.930000305175781,
+            "y": 10.800000190734863
+          },
+          "pos2": {
+            "x": 3.5,
+            "y": 1.5
+          },
+          "random": false,
+          "randCircleSize": {},
+          "lookAtPlayer": false,
+          "rotateDegree1": 190,
+          "rotateDegree2": 100,
+          "rotateDegree2Add": 100,
+          "scale": {
+            "x": 2.5,
+            "y": 4.3
+          },
+          "timeStay": 0,
+          "colorBlaster": 0
+        },
+        {
+          "indexATK": 13,
+          "waitToBeEnabled": 2.9,
+          "lerpTime": 0.6,
+          "lerpTimeWaitBeforeShoot": 9.6,
+          "lerpTimeLeave": 999999.6999999881,
+          "pos1": {
+            "x": -8.930000305175781,
+            "y": 10.800000190734863
+          },
+          "pos2": {
+            "x": 3.5,
+            "y": 1.5
+          },
+          "random": true,
+          "randCircleSize": {},
+          "lookAtPlayer": true,
+          "rotateDegree1": 0,
+          "rotateDegree2": 0,
+          "rotateDegree2Add": 0,
+          "scale": {
+            "x": 9.5,
+            "y": 4.3
+          },
+          "timeStay": 0,
+          "colorBlaster": 0
+        },
+        {
+          "indexATK": 13,
+          "waitToBeEnabled": 11.5,
+          "lerpTime": 0.6,
+          "lerpTimeWaitBeforeShoot": 9.6,
+          "lerpTimeLeave": 999999.6999999881,
+          "pos1": {
+            "x": -8.930000305175781,
+            "y": 10.800000190734863
+          },
+          "pos2": {
+            "x": 3.5,
+            "y": 1.5
+          },
+          "random": true,
+          "randCircleSize": {},
+          "lookAtPlayer": true,
+          "rotateDegree1": 0,
+          "rotateDegree2": 0,
+          "rotateDegree2Add": 0,
+          "scale": {
+            "x": 9.5,
+            "y": 4.3
+          },
+          "timeStay": 0,
+          "colorBlaster": 0
+        },
+        {
+          "indexATK": 13,
+          "waitToBeEnabled": 5.9,
+          "lerpTime": 0.6,
+          "lerpTimeWaitBeforeShoot": 9.6,
+          "lerpTimeLeave": 999999.6999999881,
+          "pos1": {
+            "x": -8.930000305175781,
+            "y": 10.800000190734863
+          },
+          "pos2": {
+            "x": 3.5,
+            "y": 1.5
+          },
+          "random": true,
+          "randCircleSize": {},
+          "lookAtPlayer": true,
+          "rotateDegree1": 0,
+          "rotateDegree2": 0,
+          "rotateDegree2Add": 0,
+          "scale": {
+            "x": 9.5,
+            "y": 4.3
+          },
+          "timeStay": 0,
+          "colorBlaster": 0
+        },
+        {
+          "indexATK": 13,
+          "waitToBeEnabled": 10,
+          "lerpTime": 0.6,
+          "lerpTimeWaitBeforeShoot": 9.6,
+          "lerpTimeLeave": 999999.6999999881,
+          "pos1": {
+            "x": -8.930000305175781,
+            "y": 10.800000190734863
+          },
+          "pos2": {
+            "x": 3.5,
+            "y": 1.5
+          },
+          "random": true,
+          "randCircleSize": {},
+          "lookAtPlayer": true,
+          "rotateDegree1": 0,
+          "rotateDegree2": 0,
+          "rotateDegree2Add": 0,
+          "scale": {
+            "x": 9.5,
+            "y": 4.3
+          },
+          "timeStay": 0,
+          "colorBlaster": 0
+        },
+        {
+          "indexATK": 14,
+          "waitToBeEnabled": 0,
+          "lerpTime": 0.6,
+          "lerpTimeWaitBeforeShoot": 7.6,
+          "lerpTimeLeave": 999999.6999999881,
+          "pos1": {
+            "x": -4.930000305175782,
+            "y": 10.800000190734863
+          },
+          "pos2": {
+            "x": 9.5,
+            "y": 1.5
+          },
+          "random": false,
+          "randCircleSize": {},
+          "lookAtPlayer": false,
+          "rotateDegree1": 50,
+          "rotateDegree2": -90,
+          "rotateDegree2Add": 0,
+          "scale": {
+            "x": 3,
+            "y": 2.5
+          },
+          "timeStay": 0,
+          "colorBlaster": 0
+        },
+        {
+          "indexATK": 14,
+          "waitToBeEnabled": 0,
+          "lerpTime": 0.6,
+          "lerpTimeWaitBeforeShoot": 9.6,
+          "lerpTimeLeave": 999999.6999999881,
+          "pos1": {
+            "x": -8.930000305175781,
+            "y": 10.800000190734863
+          },
+          "pos2": {
+            "x": 5.4,
+            "y": 1.5
+          },
+          "random": false,
+          "randCircleSize": {},
+          "lookAtPlayer": false,
+          "rotateDegree1": 50,
+          "rotateDegree2": -90,
+          "rotateDegree2Add": 0,
+          "scale": {
+            "x": 10.5,
+            "y": 5.3
+          },
+          "timeStay": 0,
+          "colorBlaster": 0
+        },
+        {
+          "indexATK": 15,
+          "waitToBeEnabled": 0,
+          "lerpTime": 0.6,
+          "lerpTimeWaitBeforeShoot": 10,
+          "lerpTimeLeave": 999999.6999999881,
+          "pos1": {
+            "x": -8.930000305175781,
+            "y": 10.800000190734863
+          },
+          "pos2": {
+            "x": 9.4,
+            "y": 0.1
+          },
+          "random": false,
+          "randCircleSize": {},
+          "lookAtPlayer": false,
+          "rotateDegree1": 50,
+          "rotateDegree2": -90,
+          "rotateDegree2Add": 0,
+          "scale": {
+            "x": 2.5,
+            "y": 4.3
+          },
+          "timeStay": 0,
+          "colorBlaster": 0
+        },
+        {
+          "indexATK": 15,
+          "waitToBeEnabled": 0,
+          "lerpTime": 0.6,
+          "lerpTimeWaitBeforeShoot": 9.6,
+          "lerpTimeLeave": 9.699999988079071,
+          "pos1": {
+            "x": -8.930000305175781,
+            "y": 10.800000190734863
+          },
+          "pos2": {
+            "x": 9.4,
+            "y": 2.5
+          },
+          "random": false,
+          "randCircleSize": {},
+          "lookAtPlayer": false,
+          "rotateDegree1": 50,
+          "rotateDegree2": -90,
+          "rotateDegree2Add": 0,
+          "scale": {
+            "x": 2.5,
+            "y": 4.3
+          },
+          "timeStay": 0,
+          "colorBlaster": 0
+        },
+        {
+          "indexATK": 15,
+          "waitToBeEnabled": 0,
+          "lerpTime": 0.6,
+          "lerpTimeWaitBeforeShoot": 9.6,
+          "lerpTimeLeave": 99.69999998807907,
+          "pos1": {
+            "x": -8.930000305175781,
+            "y": 10.800000190734863
+          },
+          "pos2": {
+            "x": 9.4,
+            "y": -2.5
+          },
+          "random": false,
+          "randCircleSize": {},
+          "lookAtPlayer": false,
+          "rotateDegree1": 50,
+          "rotateDegree2": -90,
+          "rotateDegree2Add": 0,
+          "scale": {
+            "x": 2.5,
+            "y": 4.3
+          },
+          "timeStay": 0,
+          "colorBlaster": 0
+        },
+        {
+          "indexATK": 15,
+          "waitToBeEnabled": 0,
+          "lerpTime": 0.6,
+          "lerpTimeWaitBeforeShoot": 9.6,
+          "lerpTimeLeave": 999999.6999999881,
+          "pos1": {
+            "x": -8.930000305175781,
+            "y": 10.800000190734863
+          },
+          "pos2": {
+            "x": 9.4,
+            "y": -1
+          },
+          "random": false,
+          "randCircleSize": {},
+          "lookAtPlayer": false,
+          "rotateDegree1": 50,
+          "rotateDegree2": -90,
+          "rotateDegree2Add": 0,
+          "scale": {
+            "x": 2.5,
+            "y": 4.3
+          },
+          "timeStay": 0,
+          "colorBlaster": 0
+        }
+      ]
+    }
+  },
+  {
+    "EditorListCircleGasterATK": {
+      "cirGas": [
+        {
+          "indexATK": 1,
+          "startTime": 7.1,
+          "center": {
+            "x": 3.3,
+            "y": 1.5
+          },
+          "NumObjects": 30,
+          "radius": 3,
+          "AddDegree": 15,
+          "timeSpawn": 0.10000000149011612,
+          "FollowPlayer": false,
+          "KeepFollowPlayer": false,
+          "randomDegree": false,
+          "RandomDegreeValue": [0, 180],
+          "degreeValue": 90,
+          "scale": {
+            "x": 2.5,
+            "y": 2.800000190734863
+          },
+          "ColorBlaster": 0
+        },
+        {
+          "indexATK": 1,
+          "startTime": 7.1,
+          "center": {
+            "x": 3.4,
+            "y": 1.5
+          },
+          "NumObjects": 999,
+          "radius": 3,
+          "AddDegree": 15,
+          "timeSpawn": 0.10000000149011612,
+          "FollowPlayer": false,
+          "KeepFollowPlayer": false,
+          "randomDegree": false,
+          "RandomDegreeValue": [0, 10],
+          "degreeValue": 90,
+          "scale": {
+            "x": 2.5,
+            "y": 2.800000190734863
+          },
+          "ColorBlaster": 0
+        },
+        {
+          "indexATK": 2,
+          "startTime": 2.1,
+          "center": {
+            "x": 3.3,
+            "y": 1.5
+          },
+          "NumObjects": 999,
+          "radius": 3,
+          "AddDegree": 20,
+          "timeSpawn": 0.5000000014901161,
+          "FollowPlayer": false,
+          "KeepFollowPlayer": false,
+          "randomDegree": false,
+          "RandomDegreeValue": [0, 10],
+          "degreeValue": 90,
+          "scale": {
+            "x": 4.5,
+            "y": 4.800000190734863
+          },
+          "ColorBlaster": 0
+        },
+        {
+          "indexATK": 3,
+          "startTime": 2.1,
+          "center": {
+            "x": 3.3,
+            "y": 1.5
+          },
+          "NumObjects": 999,
+          "radius": 5,
+          "AddDegree": 0,
+          "timeSpawn": 0.5000000014901161,
+          "FollowPlayer": false,
+          "KeepFollowPlayer": true,
+          "randomDegree": false,
+          "RandomDegreeValue": [0, 10],
+          "degreeValue": 90,
+          "scale": {
+            "x": 2.5,
+            "y": 4.800000190734863
+          },
+          "ColorBlaster": 2
+        },
+        {
+          "indexATK": 3,
+          "startTime": 2.1,
+          "center": {
+            "x": 3.3,
+            "y": 1.5
+          },
+          "NumObjects": 999,
+          "radius": 5,
+          "AddDegree": 0,
+          "timeSpawn": 0.5000000014901161,
+          "FollowPlayer": false,
+          "KeepFollowPlayer": true,
+          "randomDegree": true,
+          "RandomDegreeValue": [0, 10],
+          "degreeValue": 90,
+          "scale": {
+            "x": 2.5,
+            "y": 4.800000190734863
+          },
+          "ColorBlaster": 1
+        },
+        {
+          "indexATK": 3,
+          "startTime": 2.1,
+          "center": {
+            "x": 3.3,
+            "y": 1.5
+          },
+          "NumObjects": 999,
+          "radius": 1,
+          "AddDegree": 0,
+          "timeSpawn": 0.9000000014901162,
+          "FollowPlayer": false,
+          "KeepFollowPlayer": true,
+          "randomDegree": true,
+          "RandomDegreeValue": [0, 10],
+          "degreeValue": 90,
+          "scale": {
+            "x": 2.5,
+            "y": 4.800000190734863
+          },
+          "ColorBlaster": 0
+        },
+        {
+          "indexATK": 4,
+          "startTime": 0.1,
+          "center": {
+            "x": 3.3,
+            "y": 1.5
+          },
+          "NumObjects": 999999,
+          "radius": 4,
+          "AddDegree": 999999,
+          "timeSpawn": 0.5000000014901161,
+          "FollowPlayer": false,
+          "KeepFollowPlayer": true,
+          "randomDegree": true,
+          "RandomDegreeValue": [0, 10],
+          "degreeValue": 90,
+          "scale": {
+            "x": 4.5,
+            "y": 4.800000190734863
+          },
+          "ColorBlaster": 0
+        },
+        {
+          "indexATK": 4,
+          "startTime": 0.1,
+          "center": {
+            "x": 3.3,
+            "y": 1.5
+          },
+          "NumObjects": 999999,
+          "radius": 5,
+          "AddDegree": 0,
+          "timeSpawn": 1.9000000014901162,
+          "FollowPlayer": true,
+          "KeepFollowPlayer": false,
+          "randomDegree": true,
+          "RandomDegreeValue": [0, 10],
+          "degreeValue": 90,
+          "scale": {
+            "x": 9.5,
+            "y": 4.800000190734863
+          },
+          "ColorBlaster": 1
+        },
+        {
+          "indexATK": 5,
+          "startTime": 29,
+          "center": {
+            "x": 0,
+            "y": 0
+          },
+          "NumObjects": 999999,
+          "radius": 5,
+          "AddDegree": 0,
+          "timeSpawn": 1.9000000014901162,
+          "FollowPlayer": true,
+          "KeepFollowPlayer": true,
+          "randomDegree": true,
+          "RandomDegreeValue": [0, 10],
+          "degreeValue": 90,
+          "scale": {
+            "x": 9.5,
+            "y": 4.800000190734863
+          },
+          "ColorBlaster": 0
+        },
+        {
+          "indexATK": 6,
+          "startTime": 0,
+          "center": {
+            "x": 3.3,
+            "y": 1.5
+          },
+          "NumObjects": 999999,
+          "radius": 5,
+          "AddDegree": 29,
+          "timeSpawn": 0.4000000014901161,
+          "FollowPlayer": false,
+          "KeepFollowPlayer": false,
+          "randomDegree": false,
+          "RandomDegreeValue": [0, 10],
+          "degreeValue": 20,
+          "scale": {
+            "x": 2.9,
+            "y": 4.800000190734863
+          },
+          "ColorBlaster": 0
+        },
+        {
+          "indexATK": 6,
+          "startTime": 0,
+          "center": {
+            "x": 2.1,
+            "y": 1.5
+          },
+          "NumObjects": 999999,
+          "radius": 5,
+          "AddDegree": 360,
+          "timeSpawn": 1.9000000014901162,
+          "FollowPlayer": false,
+          "KeepFollowPlayer": false,
+          "randomDegree": false,
+          "RandomDegreeValue": [0, 10],
+          "degreeValue": 90,
+          "scale": {
+            "x": 2.9,
+            "y": 4.800000190734863
+          },
+          "ColorBlaster": 1
+        },
+        {
+          "indexATK": 6,
+          "startTime": 0,
+          "center": {
+            "x": 4.3,
+            "y": 1.5
+          },
+          "NumObjects": 999999,
+          "radius": 5,
+          "AddDegree": 360,
+          "timeSpawn": 1.9000000014901162,
+          "FollowPlayer": false,
+          "KeepFollowPlayer": false,
+          "randomDegree": false,
+          "RandomDegreeValue": [0, 10],
+          "degreeValue": 90,
+          "scale": {
+            "x": 2.9,
+            "y": 4.800000190734863
+          },
+          "ColorBlaster": 2
+        },
+        {
+          "indexATK": 6,
+          "startTime": 0,
+          "center": {
+            "x": 3.2,
+            "y": 1.5
+          },
+          "NumObjects": 999999,
+          "radius": 5,
+          "AddDegree": 360,
+          "timeSpawn": 1.9000000014901162,
+          "FollowPlayer": false,
+          "KeepFollowPlayer": false,
+          "randomDegree": false,
+          "RandomDegreeValue": [0, 10],
+          "degreeValue": 90,
+          "scale": {
+            "x": 2.9,
+            "y": 4.800000190734863
+          },
+          "ColorBlaster": 0
+        },
+        {
+          "indexATK": 6,
+          "startTime": 10.6,
+          "center": {
+            "x": 3.2,
+            "y": 1.5
+          },
+          "NumObjects": 20,
+          "radius": 5,
+          "AddDegree": 360,
+          "timeSpawn": 3.900000001490116,
+          "FollowPlayer": true,
+          "KeepFollowPlayer": false,
+          "randomDegree": false,
+          "RandomDegreeValue": [0, 10],
+          "degreeValue": 90,
+          "scale": {
+            "x": 2.9,
+            "y": 4.800000190734863
+          },
+          "ColorBlaster": 0
+        },
+        {
+          "indexATK": 7,
+          "startTime": 0,
+          "center": {
+            "x": 3.3,
+            "y": 1.5
+          },
+          "NumObjects": 999999,
+          "radius": 5,
+          "AddDegree": 800,
+          "timeSpawn": 0.10000000149011612,
+          "FollowPlayer": false,
+          "KeepFollowPlayer": false,
+          "randomDegree": false,
+          "RandomDegreeValue": [0, 100],
+          "degreeValue": 90,
+          "scale": {
+            "x": 2.5,
+            "y": 4.800000190734863
+          },
+          "ColorBlaster": 0
+        },
+        {
+          "indexATK": 8,
+          "startTime": 0,
+          "center": {
+            "x": 0,
+            "y": 0
+          },
+          "NumObjects": 999999,
+          "radius": 1,
+          "AddDegree": 200,
+          "timeSpawn": 0.10000000149011612,
+          "FollowPlayer": false,
+          "KeepFollowPlayer": false,
+          "randomDegree": false,
+          "RandomDegreeValue": [0, 100],
+          "degreeValue": 90,
+          "scale": {
+            "x": 2.5,
+            "y": 4.800000190734863
+          },
+          "ColorBlaster": 0
+        },
+        {
+          "indexATK": 8,
+          "startTime": 0,
+          "center": {
+            "x": 5.4,
+            "y": 2.6
+          },
+          "NumObjects": 999999,
+          "radius": 1,
+          "AddDegree": 200,
+          "timeSpawn": 0.10000000149011612,
+          "FollowPlayer": false,
+          "KeepFollowPlayer": false,
+          "randomDegree": false,
+          "RandomDegreeValue": [0, 100],
+          "degreeValue": 90,
+          "scale": {
+            "x": 2.5,
+            "y": 4.800000190734863
+          },
+          "ColorBlaster": 2
+        },
+        {
+          "indexATK": 9,
+          "startTime": 0,
+          "center": {
+            "x": 3.3,
+            "y": 1.5
+          },
+          "NumObjects": 999999,
+          "radius": 5,
+          "AddDegree": 9,
+          "timeSpawn": 0.10000000149011612,
+          "FollowPlayer": false,
+          "KeepFollowPlayer": false,
+          "randomDegree": false,
+          "RandomDegreeValue": [0, 100],
+          "degreeValue": 0,
+          "scale": {
+            "x": 2.5,
+            "y": 4.800000190734863
+          },
+          "ColorBlaster": 0
+        },
+        {
+          "indexATK": 9,
+          "startTime": 0,
+          "center": {
+            "x": 3.3,
+            "y": 1.5
+          },
+          "NumObjects": 999999,
+          "radius": 3,
+          "AddDegree": 500,
+          "timeSpawn": 0.9000000014901162,
+          "FollowPlayer": false,
+          "KeepFollowPlayer": true,
+          "randomDegree": true,
+          "RandomDegreeValue": [0, 100],
+          "degreeValue": 90,
+          "scale": {
+            "x": 2.5,
+            "y": 4.800000190734863
+          },
+          "ColorBlaster": 1
+        },
+        {
+          "indexATK": 10,
+          "startTime": 0,
+          "center": {
+            "x": 3.3,
+            "y": 1.5
+          },
+          "NumObjects": 130,
+          "radius": 5,
+          "AddDegree": 1000,
+          "timeSpawn": 0.10000000149011612,
+          "FollowPlayer": false,
+          "KeepFollowPlayer": false,
+          "randomDegree": false,
+          "RandomDegreeValue": [0, 100],
+          "degreeValue": 90,
+          "scale": {
+            "x": 2.5,
+            "y": 4.800000190734863
+          },
+          "ColorBlaster": 0
+        },
+        {
+          "indexATK": 10,
+          "startTime": 16,
+          "center": {
+            "x": 3.3,
+            "y": 1.5
+          },
+          "NumObjects": 999999,
+          "radius": 5,
+          "AddDegree": 800,
+          "timeSpawn": 0.10000000149011612,
+          "FollowPlayer": false,
+          "KeepFollowPlayer": false,
+          "randomDegree": false,
+          "RandomDegreeValue": [0, 100],
+          "degreeValue": 90,
+          "scale": {
+            "x": 2.5,
+            "y": 4.800000190734863
+          },
+          "ColorBlaster": 0
+        },
+        {
+          "indexATK": 11,
+          "startTime": 0,
+          "center": {
+            "x": 3.5,
+            "y": 1.5
+          },
+          "NumObjects": 999999,
+          "radius": 9,
+          "AddDegree": 200,
+          "timeSpawn": 0.10000000149011612,
+          "FollowPlayer": false,
+          "KeepFollowPlayer": false,
+          "randomDegree": false,
+          "RandomDegreeValue": [0, 100],
+          "degreeValue": 90,
+          "scale": {
+            "x": 2.5,
+            "y": 4.800000190734863
+          },
+          "ColorBlaster": 0
+        },
+        {
+          "indexATK": 11,
+          "startTime": 0,
+          "center": {
+            "x": 3.3,
+            "y": 1.5
+          },
+          "NumObjects": 999999,
+          "radius": 5,
+          "AddDegree": 0,
+          "timeSpawn": 1.9000000014901162,
+          "FollowPlayer": false,
+          "KeepFollowPlayer": false,
+          "randomDegree": true,
+          "RandomDegreeValue": [0, 100],
+          "degreeValue": 90,
+          "scale": {
+            "x": 2.5,
+            "y": 4.800000190734863
+          },
+          "ColorBlaster": 1
+        },
+        {
+          "indexATK": 12,
+          "startTime": 0,
+          "center": {
+            "x": 3.3,
+            "y": 1.5
+          },
+          "NumObjects": 999999,
+          "radius": 5,
+          "AddDegree": 2000,
+          "timeSpawn": 0.10000000149011612,
+          "FollowPlayer": false,
+          "KeepFollowPlayer": true,
+          "randomDegree": true,
+          "RandomDegreeValue": [0, 100],
+          "degreeValue": 90,
+          "scale": {
+            "x": 2.5,
+            "y": 4.800000190734863
+          },
+          "ColorBlaster": 0
+        },
+        {
+          "indexATK": 13,
+          "startTime": 10,
+          "center": {
+            "x": 0,
+            "y": 0
+          },
+          "NumObjects": 999999,
+          "radius": 5,
+          "AddDegree": 0,
+          "timeSpawn": 0.10000000149011612,
+          "FollowPlayer": true,
+          "KeepFollowPlayer": false,
+          "randomDegree": true,
+          "RandomDegreeValue": [0, 100],
+          "degreeValue": 90,
+          "scale": {
+            "x": 2.5,
+            "y": 4.800000190734863
+          },
+          "ColorBlaster": 0
+        },
+        {
+          "indexATK": 14,
+          "startTime": 0,
+          "center": {
+            "x": 3.3,
+            "y": 1.5
+          },
+          "NumObjects": 999999,
+          "radius": 5,
+          "AddDegree": 4000000000,
+          "timeSpawn": 0.10000000149011612,
+          "FollowPlayer": false,
+          "KeepFollowPlayer": false,
+          "randomDegree": true,
+          "RandomDegreeValue": [0, 100],
+          "degreeValue": 90,
+          "scale": {
+            "x": 2.5,
+            "y": 2.800000190734863
+          },
+          "ColorBlaster": 1
+        },
+        {
+          "indexATK": 14,
+          "startTime": 0,
+          "center": {
+            "x": 0,
+            "y": 0
+          },
+          "NumObjects": 999999,
+          "radius": -1,
+          "AddDegree": 0,
+          "timeSpawn": 1.9000000014901162,
+          "FollowPlayer": false,
+          "KeepFollowPlayer": true,
+          "randomDegree": true,
+          "RandomDegreeValue": [0, 100],
+          "degreeValue": 90,
+          "scale": {
+            "x": 1.5,
+            "y": 1.800000190734863
+          },
+          "ColorBlaster": 0
+        }
+      ]
+    }
+  },
+  {
+    "EditorListPlatformATK": {
+      "plat": [
+        {
+          "indexATK": 13,
+          "inBox": true,
+          "pos": {
+            "x": 0,
+            "y": 0.7200000286102295
+          },
+          "timeStay": 0,
+          "posSetter": [
+            {
+              "newPos": {
+                "x": 3.319999933242798,
+                "y": 0.7200000286102295
+              },
+              "waitToBeEnabled": 2,
+              "lerpTime": 3
+            },
+            {
+              "newPos": {
+                "x": 4,
+                "y": 2
+              },
+              "waitToBeEnabled": 2,
+              "lerpTime": 0.10000000149011612
+            }
+          ]
+        },
+        {
+          "indexATK": 13,
+          "inBox": true,
+          "pos": {
+            "x": 3.1,
+            "y": 1.7200000286102295
+          },
+          "timeStay": 0,
+          "posSetter": [
+            {
+              "newPos": {
+                "x": 3.119999933242798,
+                "y": 1.7200000286102295
+              },
+              "waitToBeEnabled": 2,
+              "lerpTime": 3
+            },
+            {
+              "newPos": {
+                "x": 3.1836649747,
+                "y": 1.0827383668
+              },
+              "waitToBeEnabled": 2,
+              "lerpTime": 0.10000000149011612
+            }
+          ]
+        },
+        {
+          "indexATK": 15,
+          "inBox": true,
+          "pos": {
+            "x": 2.5,
+            "y": 0.9000286102295
+          },
+          "timeStay": 0,
+          "posSetter": [
+            {
+              "newPos": {
+                "x": 1.419999933242798,
+                "y": 0.90000286102295
+              },
+              "waitToBeEnabled": 0,
+              "lerpTime": 5.100000001490116
+            },
+            {
+              "newPos": {
+                "x": 5.5836649747,
+                "y": 0.90000827383668
+              },
+              "waitToBeEnabled": 2,
+              "lerpTime": 5.100000001490116
+            },
+            {
+              "newPos": {
+                "x": 1.3836649747,
+                "y": 1.90000827383668
+              },
+              "waitToBeEnabled": 3.5,
+              "lerpTime": 5.100000001490116
+            }
+          ]
+        },
+        {
+          "indexATK": 15,
+          "inBox": true,
+          "pos": {
+            "x": 3.5,
+            "y": 0.9000286102295
+          },
+          "timeStay": 0,
+          "posSetter": [
+            {
+              "newPos": {
+                "x": 0.419999933242798,
+                "y": 0.90000286102295
+              },
+              "waitToBeEnabled": 0,
+              "lerpTime": 5.100000001490116
+            },
+            {
+              "newPos": {
+                "x": 6.5836649747,
+                "y": 0.90000827383668
+              },
+              "waitToBeEnabled": 2,
+              "lerpTime": 5.100000001490116
+            },
+            {
+              "newPos": {
+                "x": 0.3836649747,
+                "y": 0.90000827383668
+              },
+              "waitToBeEnabled": 3.5,
+              "lerpTime": 5.100000001490116
+            }
+          ]
+        },
+        {
+          "indexATK": 15,
+          "inBox": true,
+          "pos": {
+            "x": 4.5,
+            "y": 0.9000286102295
+          },
+          "timeStay": 0,
+          "posSetter": [
+            {
+              "newPos": {
+                "x": 1.419999933242798,
+                "y": 0.90000286102295
+              },
+              "waitToBeEnabled": 0,
+              "lerpTime": 5.100000001490116
+            },
+            {
+              "newPos": {
+                "x": 7.5836649747,
+                "y": 0.90000827383668
+              },
+              "waitToBeEnabled": 2,
+              "lerpTime": 5.100000001490116
+            },
+            {
+              "newPos": {
+                "x": 4.3836649747,
+                "y": 0.90000827383668
+              },
+              "waitToBeEnabled": 3.5,
+              "lerpTime": 5.100000001490116
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "EditorListChangeSoulSetter": {
+      "soul": []
+    }
+  },
+  {
+    "EditorListChangeSoulSetterGra": {
+      "soulGravity": [
+        {
+          "indexATK": 13,
+          "index": 2,
+          "waitToBeEnabled": 3,
+          "force": 3
+        },
+        {
+          "indexATK": 13,
+          "index": 2,
+          "waitToBeEnabled": 1,
+          "force": 3
+        },
+        {
+          "indexATK": 13,
+          "index": 1,
+          "waitToBeEnabled": 3,
+          "force": 3
+        },
+        {
+          "indexATK": 13,
+          "index": 2,
+          "waitToBeEnabled": 5,
+          "force": 3
+        },
+        {
+          "indexATK": 13,
+          "index": 1,
+          "waitToBeEnabled": 7,
+          "force": 3
+        },
+        {
+          "indexATK": 13,
+          "index": 2,
+          "waitToBeEnabled": 10,
+          "force": 3
+        },
+        {
+          "indexATK": 13,
+          "index": 1,
+          "waitToBeEnabled": 5.5,
+          "force": 3
+        },
+        {
+          "indexATK": 13,
+          "index": 2,
+          "waitToBeEnabled": 5,
+          "force": 20
+        },
+        {
+          "indexATK": 13,
+          "index": 4,
+          "waitToBeEnabled": 0,
+          "force": 20
+        },
+        {
+          "indexATK": 13,
+          "index": 2,
+          "waitToBeEnabled": 23.5,
+          "force": 20
+        }
+      ]
+    }
+  },
+  {
+    "EditorListTeleportATK": {
+      "teleport": ["So.. You made \nit this far"]
+    }
+  },
+  {
+    "EditorListHeartPosSetterATK": {
+      "Animation": [
+        {
+          "AddDegree": 20.0
+        }
+      ]
+    }
+  }
+]
